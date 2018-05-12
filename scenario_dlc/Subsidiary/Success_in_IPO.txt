@@ -1,0 +1,67 @@
+[HEADER]
+Title=成功上市
+Description=最近，股票市场经历了一系列非常成功的首次公开募股（IPO）。 你认为这是一个很好的机会， 你的子公司通过IPO筹集资金， 为业务拓展提供资金。 不言而喻，作为大股东， 你将收获的经济回报是另一个追求IPO的巨大动力。 在这种情况下， 你必须让你的公司走上可持续发展的轨道， 最终的目标是让你的子公司中至少有一家上市， 市值超过10亿美元。
+Difficulty Rating=90
+DLC=Subsidiary
+
+[ENVIRONMENT]
+Subsidiaries=2
+Number of Cities=5
+Your Start-up Capital=High
+Random Events=Occasional 
+Game Starting Year=1990
+Retail Store Type=Many
+Technology Disruption=On
+Stock Market=Yes
+Alternative Stock Sim=Yes
+Macro Economy Realism=High
+Inflation=Inverse
+Inflation Strength=Normal
+
+
+[COMPETITORS]
+Number of Competitors=25
+Competitor Start-up Capital=High  
+Competitor Aggressiveness=High  
+Competitor Expertise Level=Moderate
+Show Competitor Trade Secrets=Yes
+AI Friendly Merger=No
+Competence of Local Competitors=Moderate 
+
+[IMPORTS]
+Consumer Goods Seaports=2
+Industrial Goods Seaports=2
+Constant Import Supply=No
+Import Quality=High 
+
+//-------------------------------------------------------------------
+
+[MAIN GOAL]
+Goal Title=Success in IPO
+Goal Description=Success in IPO
+
+Number of Game Years=80
+
+[MAIN GOAL VALUES]
+Subsidiary IPO=2
+Subsidiary Annual Revenue=1000,2
+Subsidiary Annual Profit=150,2
+
+[MAIN GOAL REWARDS] 
+Score change=250
+
+//-------------------------------------------------------------------
+
+[SUBGOAL]
+Goal Title=Flagship Company Stock
+Goal Description=Flagship Company Stock
+
+Goal Achieved Text=Congratulations! 
+
+[SUBGOAL VALUES]
+Stock Price=300
+
+[SUBGOAL REWARDS] 
+Score change=100
+Player expertise change=training, 60
+

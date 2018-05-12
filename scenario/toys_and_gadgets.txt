@@ -1,0 +1,130 @@
+[HEADER]
+Title=玩具和工具 
+Description=你带着玩具行业的专业知识开始这局游戏，你的目标是扩大并进入到电子产品和个人通信设备的新市\n场。
+Difficulty Rating=120
+
+[ENVIRONMENT]
+Number of Cities=4
+Your Start-up Capital=High
+Random Events=Occasional 
+Game Starting Year=1990
+Retail Store Type=Many
+Technology Disruption=On
+Stock Market=Yes
+Alternative Stock Sim=Yes
+Macro Economy Realism=High
+Inflation=Inverse
+Inflation Strength=Normal
+
+[CITIES]
+City=London 
+City=Shanghai
+City=San Francisco
+City=Vancouver
+
+[COMPETITORS]
+Number of Competitors=20
+Competitor Start-up Capital=Moderate  
+Competitor Aggressiveness=Moderate  
+Competitor Expertise Level=Moderate
+Show Competitor Trade Secrets=Yes
+AI Friendly Merger=No
+Competence of Local Competitors=Moderate 
+
+[IMPORTS]
+Consumer Goods Seaports=2
+Industrial Goods Seaports=2
+Constant Import Supply=No
+Import Quality=Moderate 
+
+[PLAYER EXPERTISE] 
+Retailing=50
+Product Expertise=Toy, 100
+
+//-------------------------------------------------------------------//
+
+[SUBGOAL]
+Goal Title=支配玩具 
+Goal Description=你的目标是利用你在玩具设计和生产方面的专长， 成为玩具行业的市场领导者。  
+
+Goal Achieved Text=祝贺你！你们公司在玩具业中占了主导地位。你的下一步是拓展新市场，瞄准电子产品和通讯产品。
+[SUBGOAL VALUES]
+Player Company Annual Revenue=50
+Player Company Annual Profit=10
+
+[SUBGOAL PRODUCTS]
+Toy
+
+[SUBGOAL REWARDS] 
+Score change=100
+Player expertise change=research and development, 20
+Tech Change=Television, 50
+Instant Invention=Camera Phone
+
+//-------------------------------------------------------------------//
+
+[SUBGOAL]
+Goal Title=进入新市场
+Goal Description=你的目标是在电子产品和通讯设备的市场上占据主导地位。
+
+Goal Achieved Text=做的不错！你已经证明了自己在进入新市场和战胜竞争对手成为新的市场领导者的能力。
+
+Parent Goal=支配玩具  
+
+[SUBGOAL VALUES]
+Player Company Annual Revenue=200
+Player Company Annual Profit=30
+
+[SUBGOAL PRODUCTS]
+Electronic Products
+Communication Devices 
+
+[SUBGOAL REWARDS] 
+Score change=150
+Personal Cash Change=5
+
+//-------------------------------------------------------------------//
+
+[SUBGOAL]
+Goal Title=崇高的收入目标 
+Goal Description=您的目标是进一步发展您的业务，实现年收入20亿美元！
+
+Goal Achieved Text=丰功伟绩！你们公司的年销售额已超过20亿美元。
+
+Parent Goal=进入新市场
+
+[SUBGOAL VALUES]
+Controlled Companies Annual Revenue=2000
+
+[SUBGOAL REWARDS] 
+Score change=200
+Personal Cash Change=10
+
+//-------------------------------------------------------------------//
+
+[MAIN GOAL]
+Goal Title=发明大亨 
+Goal Description=这是你的最终目标。为了赢得比赛，你必须完成之前的所有目标的同时至少持有80%的公司的股票。
+
+Number of Game Years=20
+
+Parent Goal=崇高的收入目标 
+
+[MAIN GOAL VALUES]
+Controlled Companies Annual Revenue=2000
+Ownership=80
+
+[MAIN GOAL PRODUCTS]
+Toy
+Electronic Products
+Communication Devices 
+
+[MAIN GOAL REWARDS] 
+Score change=300
+
+//-------------------------------------------------------------------//
+
+[CHALLENGE GAME]
+Number of Game Years=30
+Ranking Method=Score
+

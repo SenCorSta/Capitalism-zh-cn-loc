@@ -1,0 +1,61 @@
+[HEADER]
+Title=传媒帝国
+Description=你总是梦想着建立一个传媒帝国，现在实现这个梦想的机会来了。 ^^你的目标是你的媒体公司的收入增长到一个可观的数字，最终胜过其他所有媒体公司成为世界第一。 
+
+Difficulty Rating=110
+
+[ENVIRONMENT]
+Number of Cities=5
+Your Start-up Capital=Very High 
+Random Events=Occasional 
+Game Starting Year=1990
+Retail Store Type=Many
+Technology Disruption=On
+Stock Market=Yes
+Alternative Stock Sim=Yes
+Macro Economy Realism=High
+Inflation=Inverse
+Inflation Strength=Normal
+
+[COMPETITORS]
+Number of Competitors=25
+Competitor Start-up Capital=Moderate  
+Competitor Aggressiveness=Moderate  
+Competitor Expertise Level=Moderate
+Show Competitor Trade Secrets=Yes
+AI Friendly Merger=No
+Competence of Local Competitors=Moderate 
+
+[IMPORTS]
+Consumer Goods Seaports=2
+Industrial Goods Seaports=2
+Constant Import Supply=No
+Import Quality=Moderate 
+
+
+//-------------------------------------------------------------------//
+
+[MAIN GOAL]
+Goal Title=Media Empire 
+Goal Description=Your goal is to grow company to become the largest media conglomerate in the world. 
+
+Number of Game Years=50
+
+[MAIN GOAL INDUSTRIES]
+Media 
+
+[MAIN GOAL VALUES]
+Player Company Annual Revenue=1000
+Player Company Annual Profit=300
+
+[MAIN GOAL REWARDS] 
+Score change=200
+
+//-------------------------------------------------------------------//
+
+[CHALLENGE GAME]
+Number of Game Years=50
+Ranking Method=Score
+
+
+

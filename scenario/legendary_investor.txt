@@ -1,0 +1,57 @@
+[HEADER]
+Title=投资传奇
+Description=你总是被谁谁谁经积累了天文数字的财富，并在业界有着很大影力的投资者的传奇故事迷住。 ^^有一天你能成为他们中的一员吗？^^在这个情景模式下，你将试图实现这个梦想。当你的个人财富已经滚雪球般累积到十亿美元，并直接\n或间接的获得5家上市公司的控股权，你将赢得这场比赛。
+
+Difficulty Rating=110
+
+[ENVIRONMENT]
+Number of Cities=5
+Your Start-up Capital=High
+Random Events=Occasional
+Game Starting Year=1990
+Retail Store Type=Many
+Technology Disruption=On
+Stock Market=Yes
+Alternative Stock Sim=Yes
+Macro Economy Realism=High
+Inflation=Inverse
+Inflation Strength=Normal
+
+[COMPETITORS]
+Number of Competitors=30
+Competitor Start-up Capital=Moderate
+Competitor Aggressiveness=Moderate
+Competitor Expertise Level=Moderate
+Show Competitor Trade Secrets=Yes
+AI Friendly Merger=No
+Competence of Local Competitors=Moderate
+
+[IMPORTS]
+Consumer Goods Seaports=2
+Industrial Goods Seaports=2
+Constant Import Supply=No
+Import Quality=Moderate
+
+//-------------------------------------------------------------------//
+
+[MAIN GOAL]
+Goal Title=Legendary Investor
+Goal Description=You will earn the title of the Legendary Investor when you have snowballed your personal wealth to $1 billion and gained control of 5 public companies either directly or via your holding company!
+
+Number of Game Years=100
+
+[MAIN GOAL VALUES]
+Player Wealth=1000
+Number of Controlled Companies=5
+
+[MAIN GOAL REWARDS]
+Score change=300
+
+//-------------------------------------------------------------------//
+
+[CHALLENGE GAME]
+Number of Game Years=30
+Ranking Method=Score
+
+
+

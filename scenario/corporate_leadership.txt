@@ -1,0 +1,167 @@
+[HEADER]
+Title=企业领导
+Description=你刚刚在启动资金充足的情况下担任了公司的CEO。你必须为公司打造一坚实的管理团队。 ^^此方案采用了特殊的规则使得招聘管理人员的成本只有正常情况下的20％。 ^^你必须通过积极拓展你的业务，或者寻求其他更好的职业机会来展示你的领导能力，否则你的管理人\n员可能会失去对公司的信心。 
+Difficulty Rating=100
+
+[ENVIRONMENT]
+Number of Cities=5
+Your Start-up Capital=High
+Random Events=Occasional 
+Game Starting Year=1990
+Retail Store Type=Many
+Technology Disruption=On
+Stock Market=Yes
+Alternative Stock Sim=Yes
+Macro Economy Realism=High
+Inflation=Inverse
+Inflation Strength=Normal
+
+
+[COMPETITORS]
+Number of Competitors=20
+Competitor Start-up Capital=Moderate  
+Competitor Aggressiveness=Moderate  
+Competitor Expertise Level=Moderate
+Show Competitor Trade Secrets=Yes
+AI Friendly Merger=No
+Competence of Local Competitors=Moderate 
+
+[IMPORTS]
+Consumer Goods Seaports=2
+Industrial Goods Seaports=2
+Constant Import Supply=No
+Import Quality=High 
+
+
+
+//-------------------------------------------------------------------
+
+[MAIN GOAL]
+Goal Title=最终任务 
+Goal Description=在这个游戏中你的最终目标是实现企业收入十亿，年利润1亿美元，并让你的公司的财务业绩提振公司股价超\n过500美元。
+
+Number of Game Years=80
+
+[MAIN GOAL VALUES]
+Player Company Annual Revenue=1000
+Player Company Annual Profit=100
+Stock Price=500
+
+[MAIN GOAL REWARDS] 
+Score change=200
+
+//-------------------------------------------------------------------
+
+[SUBGOAL]
+Goal Title=增长预期 1
+Goal Description=股东和员工期望公司在你的领导下能迅速成长。证明你的能力，不要让他们失望！
+
+Goal Achieved Text=干的漂亮！在你的领导下，公司业绩持续增长。你的高级管理人员对公司的前景充满信心。
+
+Goal Failed Text=你的高级管理人员对公司的平淡业绩都非常失望，并决定辞职，寻求其他更好的职业机会。
+
+Number of Game Years=10
+
+[SUBGOAL VALUES]
+Player Company Annual Revenue=100
+Player Company Annual Profit=10
+Stock Price=50
+
+[SUBGOAL REWARDS] 
+Score change=50
+COO expertise change=manufacturing, 20 
+CTO expertise change=research and development, 20 
+CMO expertise change=marketing, 20 
+Personal Cash Change=5
+
+[SUBGOAL PENALTIES] 
+Staff resign=COO
+Staff attitude change=COO, -100
+COO salary modifier=50
+
+Staff resign=CTO
+Staff attitude change=CTO, -100
+CTO salary modifier=50
+
+Staff resign=CMO
+Staff attitude change=CMO, -100
+CMO salary modifier=50
+
+//-------------------------------------------------------------------
+
+[SUBGOAL]
+Goal Title=增长预期 2
+Goal Description=你必须不断地向股东和员工证明你来领导公司是正确的选择。
+
+Goal Achieved Text=干的漂亮！在你的领导下，公司业绩持续增长。你的高级管理人员对公司的前景充满信心。 
+
+Goal Failed Text=你的高级管理人员对公司的平淡业绩都非常失望，并决定辞职，寻求其他更好的职业机会。 
+
+Number of Game Years=20
+
+[SUBGOAL VALUES]
+Player Company Annual Revenue=200
+Player Company Annual Profit=20
+Stock Price=100
+
+[SUBGOAL REWARDS] 
+Score change=75
+COO expertise change=manufacturing, 20 
+CTO expertise change=research and development, 20 
+CMO expertise change=marketing, 20 
+Personal Cash Change=10
+
+[SUBGOAL PENALTIES] 
+COO salary modifier=75
+Staff attitude change=COO, -100
+Staff resign=COO
+CTO salary modifier=75
+Staff attitude change=CTO, -100
+Staff resign=CTO
+CMO salary modifier=75
+Staff attitude change=CMO, -100
+Staff resign=CMO
+
+//-------------------------------------------------------------------
+
+[SUBGOAL]
+Goal Title=增长预期 3
+Goal Description=继续通过提供你令人印象深刻的表现达到股东和员工他们所期望的效果。
+
+Goal Achieved Text=太棒了！在你的领导下，公司业绩持续增长。你的高级管理人员对公司的前景充满信心。 
+
+Goal Failed Text=你的高级管理人员对公司的平淡业绩都非常失望，并决定辞职，寻求其他更好的职业机会。
+
+Number of Game Years=30
+
+[SUBGOAL VALUES]
+Player Company Annual Revenue=400
+Player Company Annual Profit=40
+Stock Price=200
+
+[SUBGOAL REWARDS] 
+Score change=100
+COO expertise change=manufacturing, 20 
+CTO expertise change=research and development, 20 
+CMO expertise change=marketing, 20 
+Personal Cash Change=15
+
+[SUBGOAL PENALTIES] 
+COO salary modifier=100
+Staff attitude change=COO, -100
+Staff resign=COO
+CTO salary modifier=100
+Staff attitude change=CTO, -100
+Staff resign=CTO
+CMO salary modifier=100
+Staff attitude change=CMO, -100
+Staff resign=CMO
+
+
+//-------------------------------------------------------------------//
+
+[CHALLENGE GAME]
+Number of Game Years=30
+Ranking Method=Score
+
+

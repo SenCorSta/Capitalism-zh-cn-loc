@@ -1,0 +1,133 @@
+[HEADER]
+Title=3. Manufacturing 
+Description=随着你的零售业务的蓬勃发展，你的下一个目标是制造你自己的产品并销售，打造你自己的品牌。^^本教程将指导你建立工厂，采购原材料和运行制造设施并生产出产品出售。
+
+//------------------------------------------------------------------------------------------------//
+
+[ENVIRONMENT]
+Number of Cities=2
+
+Your Start-up Capital=Moderate
+// Your Start-up Capital=<Very Low, Low, Moderate, High, Very High>
+
+Random Events=Never
+// Random Events=<Never, Seldom, Occasional, Frequent>
+
+Game Starting Year=1900
+// Game Starting Year=<1900 to 2100>
+// You may set the game starting year to any year between 1900 and 2100.  
+
+Retail Store Type=Many
+// Retail Store Type=<One, Many>
+
+Technology Disruption=Off
+// Technology Disruption=<Yes, No>
+
+Stock Market=No
+// Stock Market=<Yes, No>
+
+Macro Economy Realism=Low
+// Macro Economy Realism=<Low, High>
+
+Inflation=Off
+// Inflation=<Off, On, Inverse> 
+
+
+//------------------------------------------------------------------------------------------------//
+
+[CITIES]
+
+City=San Diego
+City=Toronto
+
+//------------------------------------------------------------------------------------------------//
+
+[COMPETITORS]
+Number of Competitors=3
+// Number of Competitors=<1 to 30>
+// You may set the number of competitors to any number between 1 and 30. 
+
+Competitor Start-up Capital=Low
+// Competitor Start-up Capital=<Very Low, Low, Moderate, High, Very High>
+ 
+Competitor Aggressiveness=Low
+// Competitor Aggressiveness=<Very Low, Low, Moderate, High, Very High>
+
+Competitor Expertise Level=None
+// Competitor Expertise Level=<None, Low, Moderate, High>
+
+Show Competitor Trade Secrets=Yes
+// Show Competitor Trade Secrets=<Yes, No>
+
+AI Friendly Merger=Off
+// AI Friendly Merger=<On, Off>
+
+Competence of Local Competitors=Very Low
+// Competence of Local Competitors=<Very Low, Low, Moderate, High, Very High>
+
+//------------------------------------------------------------------------------------------------//
+
+[IMPORTS]
+Consumer Goods Seaports=3
+// Consumer Goods Seaports per City=<0-4>
+
+Industrial Goods Seaports=1
+// Industrial Goods Seaports per City=<0-4>
+
+// Please note that you may create a game up with no seaport using a game script. But the AI companies’ performances will suffer and 
+// this should only be used if you intend to create a game scenario with such characteristics.
+
+Constant Import Supply=Yes
+// Constant Import Supply=<Yes,No>
+
+Import Quality=High
+// Import Quality=<Low,Moderate,High>
+
+
+//------------------------------------------------------------------------------------------------//
+
+[LOCKS]
+Information Center, Product Details
+Information Center, Financials 
+Information Center, Persons
+Information Center, Billionaires 100
+Information Center, Farmer Guide
+Information Center, Cities
+Information Center, The Economy
+Information Center, Stock Market 
+
+Buy Land
+
+Firm, R&D Center
+Firm, Farm
+Firm, Warehouse
+Firm, Logging Camp
+Firm, Mine
+Firm, Oil Well
+Firm, TV Station
+Firm, Newspaper Publisher
+Firm, Radio Station
+Firm, Headquarters
+Firm, Mansion
+Firm, Apartment
+Firm, Commercial Building
+Firm, Civic Building
+Firm, Sports Facilities
+
+//------------------------------------------------------------------------------------------------//
+
+[MAIN GOAL]
+Goal Title=Tutorial Goal
+Goal Description=Achieve an annual revenue of $30 million and an annual profit of $3 million to complete this tutorial. 
+
+[MAIN GOAL VALUES]
+Player Company Annual Revenue=30
+Player Company Annual Profit=3
+
+[MAIN GOAL REWARDS] 
+Score change=100
+
+//------------------------------------------------------------------------------------------------//
+
+[TUTORIAL]
+Tutorial=TUT03

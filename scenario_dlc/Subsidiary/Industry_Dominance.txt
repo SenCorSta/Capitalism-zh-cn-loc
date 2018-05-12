@@ -1,0 +1,68 @@
+[HEADER]
+Title=产业优势
+Description=你决定全力以赴冲占领市场。 当你的3家子公司至少成功占领一个行业的市场后，你就能赢得这场游戏。
+Difficulty Rating=110
+DLC=Subsidiary
+
+[ENVIRONMENT]
+Subsidiaries=1
+Number of Cities=5
+Your Start-up Capital=High
+Random Events=Occasional 
+Game Starting Year=1990
+Retail Store Type=Many
+Technology Disruption=On
+Stock Market=Yes
+Alternative Stock Sim=Yes
+Macro Economy Realism=High
+Inflation=Inverse
+Inflation Strength=Normal
+
+
+[COMPETITORS]
+Number of Competitors=30
+Competitor Start-up Capital=High  
+Competitor Aggressiveness=High  
+Competitor Expertise Level=High
+Show Competitor Trade Secrets=No
+AI Friendly Merger=Yes
+Competence of Local Competitors=Moderate 
+
+[IMPORTS]
+Consumer Goods Seaports=1
+Industrial Goods Seaports=2
+Constant Import Supply=No
+Import Quality=Moderate
+
+
+//-------------------------------------------------------------------
+
+[MAIN GOAL]
+Goal Title=产业优势
+Goal Description=产业优势
+
+Number of Game Years=80
+
+[MAIN GOAL VALUES]
+Subsidiary Dominance=1,3
+Subsidiary Annual Revenue=1400,3
+Subsidiary Annual Profit=250,3
+
+[MAIN GOAL REWARDS] 
+Score change=350
+
+//-------------------------------------------------------------------
+
+[SUBGOAL]
+Goal Title=Upstream Dominance
+Goal Description=You achive this goal when your main company has dominated the upstream mining and farming sectors. 
+
+Goal Achieved Text=Congratulations! 
+
+[SUBGOAL INDUSTRIES] 
+Farming
+Raw Material Production 
+
+[SUBGOAL REWARDS] 
+Score change=100
+Corporate cash change=200

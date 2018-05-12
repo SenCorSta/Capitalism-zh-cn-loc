@@ -1,0 +1,125 @@
+[HEADER]
+Title=5. Stock Market 
+Description=你已经建立了一个繁荣的商业帝国。现在是时候提升一个档次了，让它在证券交易所挂牌上市。^^您将学习如何通过向公众发行新股来筹集资金，为您的业务扩张提供资金，以及通过购买具有良好 增长前景的其他公司的股票进行长期投资。
+
+
+//------------------------------------------------------------------------------------------------//
+
+[ENVIRONMENT]
+Number of Cities=2
+
+Your Start-up Capital=High
+// Your Start-up Capital=<Very Low, Low, Moderate, High, Very High>
+
+Random Events=Never
+// Random Events=<Never, Seldom, Occasional, Frequent>
+
+Game Starting Year=1900
+// Game Starting Year=<1900 to 2100>
+// You may set the game starting year to any year between 1900 and 2100.  
+
+Retail Store Type=Many
+// Retail Store Type=<One, Many>
+
+Technology Disruption=Off
+// Technology Disruption=<Yes, No>
+
+Stock Market=Yes
+// Stock Market=<Yes, No>
+
+Macro Economy Realism=Low
+// Macro Economy Realism=<Low, High>
+
+Inflation=Off
+// Inflation=<Off, On, Inverse> 
+
+
+//------------------------------------------------------------------------------------------------//
+
+[CITIES]
+
+City=New York City
+City=London 
+
+//------------------------------------------------------------------------------------------------//
+
+[COMPETITORS]
+Number of Competitors=3
+// Number of Competitors=<1 to 30>
+// You may set the number of competitors to any number between 1 and 30. 
+
+Competitor Start-up Capital=Low
+// Competitor Start-up Capital=<Very Low, Low, Moderate, High, Very High>
+ 
+Competitor Aggressiveness=Low
+// Competitor Aggressiveness=<Very Low, Low, Moderate, High, Very High>
+
+Competitor Expertise Level=None
+// Competitor Expertise Level=<None, Low, Moderate, High>
+
+Show Competitor Trade Secrets=Yes
+// Show Competitor Trade Secrets=<Yes, No>
+
+AI Friendly Merger=Off
+// AI Friendly Merger=<On, Off>
+
+Competence of Local Competitors=Very Low
+// Competence of Local Competitors=<Very Low, Low, Moderate, High, Very High>
+
+//------------------------------------------------------------------------------------------------//
+
+[IMPORTS]
+Consumer Goods Seaports=3
+// Consumer Goods Seaports per City=<0-4>
+
+Industrial Goods Seaports=1
+// Industrial Goods Seaports per City=<0-4>
+
+// Please note that you may create a game up with no seaport using a game script. But the AI companies¡¯ performances will suffer and 
+// this should only be used if you intend to create a game scenario with such characteristics.
+
+Constant Import Supply=Yes
+// Constant Import Supply=<Yes,No>
+
+Import Quality=High
+// Import Quality=<Low,Moderate,High>
+
+
+//------------------------------------------------------------------------------------------------//
+
+[LOCKS]
+Information Center, Farmer Guide
+
+Buy Land
+
+Firm, R&D Center
+Firm, Farm
+Firm, Warehouse
+Firm, Logging Camp
+Firm, Mine
+Firm, Oil Well
+Firm, TV Station
+Firm, Newspaper Publisher
+Firm, Radio Station
+Firm, Mansion
+Firm, Apartment
+Firm, Commercial Building
+Firm, Civic Building
+Firm, Sports Facilities
+
+//------------------------------------------------------------------------------------------------//
+
+[MAIN GOAL]
+Goal Title=Tutorial Goal
+Goal Description=You win this tutorial game when your company's stock price increases to $100.
+
+[MAIN GOAL VALUES]
+Stock Price=100
+
+[MAIN GOAL REWARDS] 
+Score change=170
+
+//------------------------------------------------------------------------------------------------//
+
+[TUTORIAL]
+Tutorial=TUT05

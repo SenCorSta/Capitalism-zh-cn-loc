@@ -1,0 +1,93 @@
+[HEADER]
+Title=城市转型
+Description=您的目标是将城市发展成繁荣的大都市区。 为了实现大都市转型所需的人口增长，你必须首先成功地让你的政党成员当选为城市市长。
+Difficulty Rating=80
+DLC=CityEcoSim 
+Survival Mode=No
+
+[ENVIRONMENT]
+Number of Cities=2
+Your Start-up Capital=Very High 
+Random Events=Occasional 
+Game Starting Year=1990
+Retail Store Type=Many
+Technology Disruption=On
+Stock Market=Yes
+Alternative Stock Sim=Yes
+Macro Economy Realism=High
+Inflation=Inverse
+Inflation Strength=Normal
+
+[CITIES]
+City=Seoul
+Population=500000
+Real Wage Rate=50
+
+City=Busan
+Population=300000
+Real Wage Rate=35
+
+[COMPETITORS]
+Number of Competitors=15
+Competitor Start-up Capital=Moderate  
+Competitor Aggressiveness=Moderate  
+Competitor Expertise Level=Moderate
+Show Competitor Trade Secrets=Yes
+AI Friendly Merger=No
+Competence of Local Competitors=Moderate 
+
+[IMPORTS]
+Consumer Goods Seaports=2
+Industrial Goods Seaports=2
+Constant Import Supply=No
+Import Quality=Moderate 
+
+
+//-------------------------------------------------------------------//
+
+[MAIN GOAL]
+Goal Title=城市转型
+Goal Description=你的目标是成功地从你的政党成员中选出城市市长，并扩大城市人口。
+
+Number of Game Years=50
+
+[MAIN GOAL VALUES]
+City population=1000000, Seoul
+Mayor approval rating=60, Seoul
+
+City population=800000, Busan
+Mayor approval rating=60, Busan
+
+
+[MAIN GOAL REWARDS] 
+Score change=200
+
+//-------------------------------------------------------------------//
+
+[SUBGOAL]
+Goal Title=公司业绩 
+Goal Description=如果你在努力实现城市发展的更大目标，你将获得令人印象深刻的业务成果，你就能赢得这个子目标。
+
+Goal Achieved Text=恭喜！ 你再次证明你是一个非常有才华的商业人士。
+
+[SUBGOAL VALUES]
+Player Company Annual Revenue=500
+Player Company Annual Profit=50
+
+[SUBGOAL REWARDS] 
+Score change=100
+
+//-------------------------------------------------------------------//
+
+[SUBGOAL]
+Goal Title=政治影响 
+Goal Description=当你的政党成员当选为市长时，你的政治影响力增加。 当你的政治影响分数达到目标目标时，你赢得这个子目标。 （要查看您的政治影响分数，请按F7打开分数报告。）
+Goal Achieved Text=恭喜！ 你的政治影响已经达到了新的高度。
+
+
+[SUBGOAL VALUES]
+Influence Score=100
+
+[SUBGOAL REWARDS] 
+Score change=100
+

@@ -1,0 +1,97 @@
+[HEADER]
+Title=传统品牌
+Description=你买下一个曾经很受欢迎的已经不存在的公司的品牌，它现今仍然承载着显著的品牌价值。 ^^你计划在市场上用他们的品牌推出一系列质量卓越的新产品。 ^^通过利用旧品牌，新产品将立即获得消费者的认可而不需要另行广告。 ^^（注意：在此局游戏中你不允许更改品牌策略。）
+Difficulty Rating=110
+
+[ENVIRONMENT]
+Number of Cities=5
+Your Start-up Capital=Very High 
+Random Events=Occasional 
+Game Starting Year=1990
+Retail Store Type=Many
+Technology Disruption=On
+Stock Market=Yes
+Alternative Stock Sim=Yes
+Macro Economy Realism=High
+Inflation=Inverse
+Inflation Strength=Normal
+
+[COMPETITORS]
+Number of Competitors=20
+Competitor Start-up Capital=Moderate  
+Competitor Aggressiveness=Moderate  
+Competitor Expertise Level=Moderate
+Show Competitor Trade Secrets=Yes
+AI Friendly Merger=No
+Competence of Local Competitors=Moderate 
+
+[IMPORTS]
+Consumer Goods Seaports=2
+Industrial Goods Seaports=2
+Constant Import Supply=No
+Import Quality=Moderate 
+
+[SPECIAL RULES]
+Fixed Brand Strategy=Corporate Brand 
+Corporate Brand Rating=35, 35
+// Initial corporate brand awareness and brand royalty ratings 
+
+//-------------------------------------------------------------------//
+
+[SUBGOAL]
+Goal Title=Growth Dilemma
+Goal Description=You intend to grow your company by diversifying your product portfolio. But you must maintain consistent quality across all product lines or you will see your brand losing consumer loyalty.
+
+Goal Achieved Text=Congratulations! Your company has successfully achieved growth while delivering impressive bottom-line profits.
+
+[SUBGOAL VALUES]
+Number of product types being produced=10
+Player Company Annual Revenue=300
+Player Company Annual Profit=30
+
+[SUBGOAL REWARDS] 
+Score change=50
+Personal Cash Change=10
+
+//-------------------------------------------------------------------//
+
+[SUBGOAL]
+Goal Title=Testing the Limit
+Goal Description=With your prior success, you have become even more ambitious in expanding your business. But further product diversification will surely negatively impact brand loyalty. Can you pull it off this time? Have it reached the limit already?
+
+Goal Achieved Text=Bravo! You have defied the conventional thinking that corporate brand can never support a highly diverse product portfolio. 
+
+Parent Goal=Growth Dilemma
+
+[SUBGOAL VALUES]
+Number of product types being produced=20
+Player Company Annual Revenue=600
+Player Company Annual Profit=60
+
+[SUBGOAL REWARDS] 
+Score change=100
+Personal Cash Change=30
+
+//-------------------------------------------------------------------//
+
+[MAIN GOAL]
+Goal Title=Legacy Brand
+Goal Description=You have bought the brand asset of a defunct company which used to be a popular consumer brand and still carries significant brand value in the present day. You plan to launch a new range of products of outstanding quality and market them under the legacy brand. By leveraging the brand, your new products will gain instant consumer recognition without prior advertising. (You are not allowed to change brand strategy in this game.)
+
+Number of Game Years=50
+
+[MAIN GOAL VALUES]
+Player Company Annual Revenue=1000
+Player Company Annual Profit=100
+
+[MAIN GOAL REWARDS] 
+Score change=200
+
+//-------------------------------------------------------------------//
+
+[CHALLENGE GAME]
+Number of Game Years=30
+Ranking Method=Score
+
+
+

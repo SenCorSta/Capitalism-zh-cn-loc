@@ -1,0 +1,97 @@
+[HEADER]
+Title=提高生活质量
+Description=除了经济增长，人们真正期待的是生活质量的显着提高。 在这种情况下，你的目标是从零开始建立两个城市，领导所有城市，包括现有城市，实现更高的可持 续生活质量。
+
+Difficulty Rating=120
+DLC=CityEcoSim 
+Survival Mode=No
+
+[ENVIRONMENT]
+Number of Cities=2
+Your Start-up Capital=Very High 
+Random Events=Occasional 
+Game Starting Year=1990
+Retail Store Type=Many
+Technology Disruption=On
+Stock Market=Yes
+Alternative Stock Sim=Yes
+Macro Economy Realism=High
+Inflation=Inverse
+Inflation Strength=Normal
+
+[CITIES]
+City=Beijing
+Population=400000
+Real Wage Rate=40
+
+City=Shanghai
+Population=300000
+Real Wage Rate=40
+
+[COMPETITORS]
+Number of Competitors=15
+Competitor Start-up Capital=Moderate  
+Competitor Aggressiveness=Moderate  
+Competitor Expertise Level=Moderate
+Show Competitor Trade Secrets=Yes
+AI Friendly Merger=No
+Competence of Local Competitors=Moderate 
+
+[IMPORTS]
+Consumer Goods Seaports=2
+Industrial Goods Seaports=2
+Constant Import Supply=No
+Import Quality=Moderate 
+
+
+//-------------------------------------------------------------------//
+
+[MAIN GOAL]
+Goal Title=提高生活质量
+Goal Description=A除了经济增长，人们真正期待的是生活质量的显着提高。 在这种情况下，你的目标是从零开始建立两个城市，领导所有城市，包括现有城市，实现更高的可持续生活质量。
+
+Number of Game Years=50
+
+[MAIN GOAL VALUES]
+Number of Cities You Manage=4
+
+// nation and average ratings 
+National population=1700000
+Food Supply rating=100
+Goods Supply rating=90
+National quality of life index=70
+City GDP per capita=10000
+
+
+[MAIN GOAL REWARDS] 
+Score change=400
+
+//-------------------------------------------------------------------//
+
+[SUBGOAL]
+Goal Title=公司业绩  
+Goal Description=如果你在努力实现城市发展的更大目标，你将获得令人印象深刻的业务成果，你就能赢得这个子目标。
+
+Goal Achieved Text=恭喜！ 你再次证明你是一个非常有才华的商业人士。
+
+[SUBGOAL VALUES]
+Player Company Annual Revenue=1500
+Player Company Annual Profit=150
+
+[SUBGOAL REWARDS] 
+Score change=180
+
+//-------------------------------------------------------------------//
+
+[SUBGOAL]
+Goal Title=政治影响 
+Goal Description=当你的政党成员当选为市长时，你的政治影响力增加。 当你的政治影响分数达到目标目标时，你赢得这个子目标。 （要查看您的政治影响分数，请按F7打开分数报告。）
+Goal Achieved Text=恭喜！ 你的政治影响已经达到了新的高度。
+
+
+[SUBGOAL VALUES]
+Influence Score=250
+
+[SUBGOAL REWARDS] 
+Score change=180
+

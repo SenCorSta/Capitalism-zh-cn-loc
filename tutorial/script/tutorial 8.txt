@@ -1,0 +1,118 @@
+[HEADER]
+Title=8. Corporate Headquarters 
+Description=迄今为止，你已经取得了令人印象深刻的进展，作为一个在商业世界升起的新星，你赢得了声誉。^^在这最后的教程中，您将学习如何建立自己的企业总部设立各部门，使你更有效地管理你的商业帝国。^^要赢得这场比赛，你的公司必须在农业和零售行业的市场占主导地位，并实现每年2亿美元的收入 和2000万美元的年利润。^^尝试应用你从以前的教程中学到的管理你的公司。 请记住早期选择一个合适的品牌策略，并在广告，研发和培训方面投入明智的投资。
+
+//------------------------------------------------------------------------------------------------//
+
+[ENVIRONMENT]
+Number of Cities=3
+
+Your Start-up Capital=Very High
+// Your Start-up Capital=<Very Low, Low, Moderate, High, Very High>
+
+Random Events=Never
+// Random Events=<Never, Seldom, Occasional, Frequent>
+
+Game Starting Year=1900
+// Game Starting Year=<1900 to 2100>
+// You may set the game starting year to any year between 1900 and 2100.  
+
+Retail Store Type=Many
+// Retail Store Type=<One, Many>
+
+Technology Disruption=Off
+// Technology Disruption=<Yes, No>
+
+Stock Market=Yes
+// Stock Market=<Yes, No>
+
+Macro Economy Realism=Low
+// Macro Economy Realism=<Low, High>
+
+Inflation=Off
+// Inflation=<Off, On, Inverse> 
+
+
+//------------------------------------------------------------------------------------------------//
+
+[CITIES]
+
+City=Frankfurt
+City=Helsinki
+City=Seoul 
+
+//------------------------------------------------------------------------------------------------//
+
+[COMPETITORS]
+Number of Competitors=3
+// Number of Competitors=<1 to 30>
+// You may set the number of competitors to any number between 1 and 30. 
+
+Competitor Start-up Capital=Low
+// Competitor Start-up Capital=<Very Low, Low, Moderate, High, Very High>
+ 
+Competitor Aggressiveness=Low
+// Competitor Aggressiveness=<Very Low, Low, Moderate, High, Very High>
+
+Competitor Expertise Level=None
+// Competitor Expertise Level=<None, Low, Moderate, High>
+
+Show Competitor Trade Secrets=Yes
+// Show Competitor Trade Secrets=<Yes, No>
+
+AI Friendly Merger=Off
+// AI Friendly Merger=<On, Off>
+
+Competence of Local Competitors=Very Low
+// Competence of Local Competitors=<Very Low, Low, Moderate, High, Very High>
+
+//------------------------------------------------------------------------------------------------//
+
+[IMPORTS]
+Consumer Goods Seaports=3
+// Consumer Goods Seaports per City=<0-4>
+
+Industrial Goods Seaports=1
+// Industrial Goods Seaports per City=<0-4>
+
+// Please note that you may create a game up with no seaport using a game script. But the AI companies’ performances will suffer and 
+// this should only be used if you intend to create a game scenario with such characteristics.
+
+Constant Import Supply=Yes
+// Constant Import Supply=<Yes,No>
+
+Import Quality=High
+// Import Quality=<Low,Moderate,High>
+
+
+//------------------------------------------------------------------------------------------------//
+
+[LOCKS]
+Firm, TV Station
+Firm, Newspaper Publisher
+Firm, Radio Station
+Firm, Mansion
+Firm, Apartment
+Firm, Commercial Building
+Firm, Civic Building
+Firm, Sports Facilities
+
+//------------------------------------------------------------------------------------------------//
+
+[MAIN GOAL]
+Goal Title=Tutorial Goal
+Goal Description=Your goal is to grow your company to a large corporation with ~1000 or more employees~, and achieve ~an annual revenue of $1 billion~ and ~an annual profit of $100 million~.
+
+
+[MAIN GOAL VALUES]
+Player Company Annual Revenue=1000
+Player Company Annual Profit=100
+Total Number of Employees=1000
+
+[MAIN GOAL REWARDS] 
+Score change=300
+
+//------------------------------------------------------------------------------------------------//
+
+[TUTORIAL]
+Tutorial=TUT08

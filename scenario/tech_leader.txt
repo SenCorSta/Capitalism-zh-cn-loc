@@ -1,0 +1,115 @@
+[HEADER]
+Title=科技领导者
+Description=你是那些在技术领域拥有非凡天赋的人才之一，你打算把它很好的运用在你的产品中。 ^^带着技术才是最重要的这种信念，你涉足到高科技产品中，你有绝对的信心成为在高科技产品市场的\n领导者。
+Difficulty Rating=130
+
+[ENVIRONMENT]
+Number of Cities=5
+Your Start-up Capital=Very High 
+Random Events=Occasional 
+Game Starting Year=1990
+Retail Store Type=Many
+Technology Disruption=On
+Stock Market=Yes
+Alternative Stock Sim=Yes
+Macro Economy Realism=High
+Inflation=Inverse
+Inflation Strength=Normal
+
+[COMPETITORS]
+Number of Competitors=20
+Competitor Start-up Capital=Moderate  
+Competitor Aggressiveness=Moderate  
+Competitor Expertise Level=Moderate
+Show Competitor Trade Secrets=Yes
+AI Friendly Merger=No
+Competence of Local Competitors=Moderate 
+
+
+[IMPORTS]
+Consumer Goods Seaports=2
+Industrial Goods Seaports=2
+Constant Import Supply=No
+Import Quality=Moderate 
+
+
+[PLAYER EXPERTISE] 
+Product Expertise=Computer, 100
+
+//-------------------------------------------------------------------//
+
+[SUBGOAL]
+Goal Title=Tech Leadership
+Goal Description=Your goal is to become the largest producer of computers and maintain a significant lead over your competitors in computer production technology. You achieve this goal when your production technology levels for desktop computers and notebook computers are at least 100 points higher than the closest competitor.
+
+Goal Achieved Text=Outstanding! Your investors have decided to invest further $50 million into your computer for an expansion into personal communication devices. 
+
+[SUBGOAL VALUES]
+Player Company Annual Revenue=200
+Player Company Annual Profit=20
+
+Tech lead=Desktop Computer, 100
+Tech lead=Notebook Computer, 100
+
+[SUBGOAL PRODUCTS]
+Computer
+
+[SUBGOAL REWARDS] 
+Score change=50
+Corporate Cash Change=50
+
+//-------------------------------------------------------------------//
+
+[SUBGOAL]
+Goal Title=High Tech Opportunity
+Goal Description=Having identified the great opportunities in personal communication devices, you are making aggressive moves with the aim of extending your dominance to this new market.  You achieve this goal when your production technology levels for smart phones and HUB glasses are at least 100 points higher than the closest competitor.
+
+Goal Achieved Text=Congratulations! You have achieved victory in the race to become the market leader in personal communication devices. 
+
+Parent Goal=Tech Leadership
+
+[SUBGOAL VALUES]
+Player Company Annual Revenue=600
+Player Company Annual Profit=60
+
+Tech lead=Smart Phone, 100
+Tech lead=HUD Glasses, 100
+
+[SUBGOAL PRODUCTS]
+Communication Devices 
+
+[SUBGOAL REWARDS] 
+Score change=150
+
+
+//-------------------------------------------------------------------//
+
+[MAIN GOAL]
+Goal Title=Tech Giant 
+Goal Description=You never slow down in expanding your business and you now set your sight on becoming a tech giant with substantial market presences and revenues. 
+
+Parent Goal=High Tech Opportunity
+
+Number of Game Years=50
+
+[MAIN GOAL VALUES]
+Player Company Annual Revenue=1500
+Player Company Annual Profit=150
+
+[MAIN GOAL PRODUCTS]
+Computer
+Communication Devices 
+
+[MAIN GOAL REWARDS] 
+Score change=200
+
+//-------------------------------------------------------------------//
+
+[CHALLENGE GAME]
+Number of Game Years=30
+Ranking Method=Score
+
+
+
+
+

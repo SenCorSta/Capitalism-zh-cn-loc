@@ -1,0 +1,97 @@
+[HEADER]
+Title=家庭农业作坊 
+Description=你来自一个对农耕农场经营与有很强的专业知识的家庭。看到设立零售点出售日常家庭农场产品的前\n景，你的父亲已授权你在海外拓展一个新的农业和零售业务。 ^^在你父亲的指导下，你应该首先着眼于农业和零售。 ^^一旦你已经完成了建立一个农场和零售业务的家庭目标，你将获得可以自由扩展到任何市场和行业的\n机会。
+
+Difficulty Rating=120
+
+[ENVIRONMENT]
+Number of Cities=4
+Your Start-up Capital=High
+Random Events=Occasional 
+Game Starting Year=1990
+Retail Store Type=Many
+Technology Disruption=On
+Stock Market=Yes
+Alternative Stock Sim=Yes
+Macro Economy Realism=High
+Inflation=Inverse
+Inflation Strength=Normal
+
+[CITIES]
+City=London 
+City=Shanghai
+City=San Francisco
+City=Vancouver
+
+[COMPETITORS]
+Number of Competitors=20
+Competitor Start-up Capital=Moderate  
+Competitor Aggressiveness=Moderate  
+Competitor Expertise Level=Moderate
+Show Competitor Trade Secrets=Yes
+AI Friendly Merger=No
+Competence of Local Competitors=Moderate 
+
+[IMPORTS]
+Consumer Goods Seaports=2
+Industrial Goods Seaports=2
+Constant Import Supply=No
+Import Quality=Moderate 
+
+[LOCKS]
+Firm, Factory
+Firm, Logging Camp
+Firm, Mine
+Firm, Oil Well
+
+[PLAYER EXPERTISE] 
+Farming=80
+
+//-------------------------------------------------------------------//
+
+[SUBGOAL]
+Goal Title=Farming and Retail Dominance
+Goal Description=Grow your business into a leading company in farming and retail. You are your family's best hope for achieving this goal and you promise yourself not to disappoint them. 
+Goal Achieved Text=Congratulations! Your corporation have achieved dominance in retail and farming. You now aim at taking your business to the next level and expand into new markets.  
+
+Number of Game Years=30
+
+[SUBGOAL INDUSTRIES]
+Retail 
+Farming
+
+[SUBGOAL REWARDS] 
+Score change=100
+Personal Cash Change=10
+Corporate Cash Change=50
+Unlock firm=Factory
+Unlock firm=Logging Camp
+Unlock firm=Mine
+Unlock firm=Oil Well
+
+
+//-------------------------------------------------------------------//
+
+[MAIN GOAL]
+Goal Title=Surpassing Family Expectation
+Goal Description=Surpass your family's expectation by not only building a thriving farming and retail business, but growing it into a multinational corporation with a diversified product portfolio. 
+
+Number of Game Years=30
+
+Parent Goal=Farming and Retail Dominance
+
+[MAIN GOAL VALUES]
+Player Company Annual Revenue=1000
+Player Company Annual Profit=100
+Player Company Net Worth=800
+Number of product classes being produced=7
+
+[MAIN GOAL REWARDS] 
+Score change=200
+
+//-------------------------------------------------------------------//
+
+[CHALLENGE GAME]
+Number of Game Years=50
+Ranking Method=Score
+

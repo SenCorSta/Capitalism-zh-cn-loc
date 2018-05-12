@@ -1,0 +1,71 @@
+[HEADER]
+Title=资本大师
+Description=这种情景游戏代表了你在推出子公司、 筹集资金、 建立交易和撤出IPO等方面的终极考验。 在这种情况下的目标只能通过制定你的商业策略， 并完美地执行它们来实现。 当你成功地做到这一点， 你将获得资本大师的头衔！
+
+Difficulty Rating=120
+DLC=Subsidiary
+
+[ENVIRONMENT]
+Number of Cities=6
+Your Start-up Capital=High
+Random Events=Occasional 
+Game Starting Year=1990
+Retail Store Type=Many
+Technology Disruption=On
+Stock Market=Yes
+Alternative Stock Sim=Yes
+Macro Economy Realism=High
+Inflation=Inverse
+Inflation Strength=Normal
+
+
+[COMPETITORS]
+Number of Competitors=35
+Competitor Start-up Capital=High  
+Competitor Aggressiveness=High  
+Competitor Expertise Level=High
+Show Competitor Trade Secrets=No
+AI Friendly Merger=Yes
+Competence of Local Competitors=High
+
+[IMPORTS]
+Consumer Goods Seaports=1
+Industrial Goods Seaports=1
+Constant Import Supply=No
+Import Quality=Moderate
+
+
+//-------------------------------------------------------------------
+
+[MAIN GOAL]
+Goal Title=Sprawling Corporation
+Goal Description=Sprawling Corporation
+
+Number of Game Years=80
+
+[MAIN GOAL VALUES]
+Subsidiary Annual Revenue=1600,3
+Subsidiary Annual Profit=300,3
+Subsidiary Dominance=1,3
+Subsidiary IPO=2
+Subsidiary Market Cap=3000,1
+
+[MAIN GOAL REWARDS] 
+Score change=400
+
+//-------------------------------------------------------------------
+
+[SUBGOAL]
+Goal Title=$10 Billion in Revenues
+Goal Description=$10 Billion in Revenues
+
+Goal Achieved Text=Congratulations! 
+
+[SUBGOAL VALUES]
+Controlled Companies Annual Revenue=10000
+Controlled Companies Annual Profit=1500
+
+[SUBGOAL REWARDS] 
+Score change=200
+Player expertise change=research and development, 100
+

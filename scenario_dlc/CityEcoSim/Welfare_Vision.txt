@@ -1,0 +1,109 @@
+[HEADER]
+Title=福利愿景
+Description=你相信政府应该在保护其公民的社会和经济福利方面发挥关键作用的概念。 现在你将领导你的政党赢得选举，实现你的愿景。 
+Difficulty Rating=100
+DLC=CityEcoSim 
+Survival Mode=No
+
+[ENVIRONMENT]
+Number of Cities=3
+Your Start-up Capital=Very High 
+Random Events=Occasional 
+Game Starting Year=1990
+Retail Store Type=Many
+Technology Disruption=On
+Stock Market=Yes
+Alternative Stock Sim=Yes
+Macro Economy Realism=High
+Inflation=Inverse
+Inflation Strength=Normal
+
+[CITIES]
+City=Berlin
+Population=500000
+Real Wage Rate=60
+
+City=Frankfurt
+Population=300000
+Real Wage Rate=60
+
+City=Hamburg
+Population=0
+Real Wage Rate=30
+
+
+[COMPETITORS]
+Number of Competitors=15
+Competitor Start-up Capital=Moderate  
+Competitor Aggressiveness=Moderate  
+Competitor Expertise Level=Moderate
+Show Competitor Trade Secrets=Yes
+AI Friendly Merger=No
+Competence of Local Competitors=Moderate 
+
+[IMPORTS]
+Consumer Goods Seaports=2
+Industrial Goods Seaports=2
+Constant Import Supply=No
+Import Quality=Moderate 
+
+
+//-------------------------------------------------------------------//
+
+[MAIN GOAL]
+Goal Title=福利愿景
+Goal Description=你相信政府应该在保护其公民的社会和经济福利方面发挥关键作用的概念。 现在你将领导你的政党赢得选举，实现你的愿景。 
+
+Number of Game Years=50
+
+[MAIN GOAL VALUES]
+Mayor approval rating=70, Berlin
+Housing and Community Facilities rating=90, Berlin
+Health rating=90, Berlin
+Social Security rating=90, Berlin
+
+Mayor approval rating=70, Frankfurt
+City population=400000, Hamburg
+Housing and Community Facilities rating=90, Frankfurt
+Health rating=90, Frankfurt
+Social Security rating=90, Frankfurt
+
+City population=300000, Hamburg
+Mayor approval rating=70, Hamburg
+Housing and Community Facilities rating=90, Hamburg
+Health rating=90, Hamburg
+Social Security rating=90, Hamburg
+
+
+[MAIN GOAL REWARDS] 
+Score change=300
+
+//-------------------------------------------------------------------//
+
+[SUBGOAL]
+Goal Title=公司业绩  
+Goal Description=如果你在努力实现城市发展的更大目标，你将获得令人印象深刻的业务成果，你就能赢得这个子目标。
+
+Goal Achieved Text=恭喜！ 你再次证明你是一个非常有才华的商业人士。
+
+[SUBGOAL VALUES]
+Player Company Annual Revenue=1000
+Player Company Annual Profit=100
+
+[SUBGOAL REWARDS] 
+Score change=140
+
+//-------------------------------------------------------------------//
+
+[SUBGOAL]
+Goal Title=政治影响 
+Goal Description=当你的政党成员当选为市长时，你的政治影响力增加。 当你的政治影响分数达到目标目标时，你赢得这个子目标。 （要查看您的政治影响分数，请按F7打开分数报告。）
+Goal Achieved Text=恭喜！ 你的政治影响已经达到了新的高度。
+
+
+[SUBGOAL VALUES]
+Influence Score=150
+
+[SUBGOAL REWARDS] 
+Score change=140
+

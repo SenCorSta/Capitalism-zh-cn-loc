@@ -1,0 +1,103 @@
+[HEADER]
+Title=食品和饮料
+Description=你在食品和饮料行业有着的优秀记录。现在，你开始对自己和从投资者处筹集到的以千万计的资金负\n责。 ^^你已经答应了投资者，让您的新公司保持专注于食品和饮料行业的专业化是在早期发展阶段成功的关\n键。^^一旦你在食品和饮料行业取得了市场的主导地位，将有更大的挑战让你来承担！
+
+Difficulty Rating=100
+
+[ENVIRONMENT]
+Number of Cities=4
+Your Start-up Capital=High
+Random Events=Occasional 
+Game Starting Year=1990
+Retail Store Type=Many
+Technology Disruption=On
+Stock Market=Yes
+Alternative Stock Sim=Yes
+Macro Economy Realism=High
+Inflation=Inverse
+Inflation Strength=Normal
+
+[CITIES]
+City=Seoul
+City=Warsaw
+City=Paris
+City=Miami
+
+[COMPETITORS]
+Number of Competitors=20
+Competitor Start-up Capital=Moderate  
+Competitor Aggressiveness=Moderate  
+Competitor Expertise Level=Moderate
+Show Competitor Trade Secrets=Yes
+AI Friendly Merger=No
+Competence of Local Competitors=Moderate 
+
+[IMPORTS]
+Consumer Goods Seaports=2
+Industrial Goods Seaports=2
+Constant Import Supply=No
+Import Quality=Moderate 
+
+[PLAYER EXPERTISE] 
+Product Expertise=Beverage, 70
+Product Expertise=Food, 70
+Product Expertise=Snacks, 70
+
+[LOCKS]
+Product=All
+
+[UNLOCKS]
+Product=Beverage
+Product=Food
+Product=Snacks
+
+//-------------------------------------------------------------------//
+
+[SUBGOAL]
+Goal Title=Food and Beverage Dominance
+Goal Description=Lead your corporation to achieve market dominance in the food and beverage and deliver outstanding financial returns to your investors. (You are limited to production of beverage, food and snacks until you have achieved this goal.)
+
+Goal Achieved Text=Congratulations! You have achieved market dominance in the food and beverage industry and your corporation's market cap has increased substantially. Your board of directors are extremely pleased with your performance and support your plan for entering new markets to drive further revenue growth.
+
+Number of Game Years=30
+
+[SUBGOAL PRODUCTS]
+Beverage
+Food
+Snacks
+
+[SUBGOAL VALUES]
+Player Company Market Cap=300 
+
+[SUBGOAL REWARDS] 
+Score change=150
+Unlock product=All
+
+//-------------------------------------------------------------------//
+
+[MAIN GOAL]
+Goal Title=Multinational Conglomerate 
+Goal Description=With your success in the food and beverage industry, your current goal is to diversify your business and further grow your corporation into a multinational conglomerate with a market capitalization of $1 billion and an annual revenue of at least $800 million. 
+
+Number of Game Years=50
+
+Parent Goal=Food and Beverage Dominance
+
+[MAIN GOAL VALUES]
+Player Company Annual Revenue=800
+Player Company Market Cap=600 
+
+[MAIN GOAL PRODUCTS]
+Beverage
+Food
+Snacks
+
+[MAIN GOAL REWARDS] 
+Score change=300
+
+//-------------------------------------------------------------------//
+
+[CHALLENGE GAME]
+Number of Game Years=30
+Ranking Method=Score
+

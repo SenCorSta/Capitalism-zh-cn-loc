@@ -1,0 +1,105 @@
+[HEADER]
+Title=投资教育 
+Description=教育是我们未来最强大的投资。 它赋予人们权力，增加就业和推动工资增长。 在这种情况下，你不仅要提高现有城市的教育和工资水平，还要从头开始建设一个新城市，并将其发展成拥有世界级教育设施的城市。
+
+Difficulty Rating=110
+DLC=CityEcoSim 
+Survival Mode=No
+
+[ENVIRONMENT]
+Number of Cities=2
+Your Start-up Capital=Very High 
+Random Events=Occasional 
+Game Starting Year=1990
+Retail Store Type=Many
+Technology Disruption=On
+Stock Market=Yes
+Alternative Stock Sim=Yes
+Macro Economy Realism=High
+Inflation=Inverse
+Inflation Strength=Normal
+
+[CITIES]
+City=London
+Population=500000
+Real Wage Rate=60
+
+City=Manchester
+Population=300000
+Real Wage Rate=50
+
+
+[COMPETITORS]
+Number of Competitors=15
+Competitor Start-up Capital=Moderate  
+Competitor Aggressiveness=Moderate  
+Competitor Expertise Level=Moderate
+Show Competitor Trade Secrets=Yes
+AI Friendly Merger=No
+Competence of Local Competitors=Moderate 
+
+[IMPORTS]
+Consumer Goods Seaports=2
+Industrial Goods Seaports=2
+Constant Import Supply=No
+Import Quality=Moderate 
+
+
+//-------------------------------------------------------------------//
+
+[MAIN GOAL]
+Goal Title=投资教育
+Goal Description=教育是我们未来最强大的投资。 它赋予人们权力，增加就业和推动工资增长。 在这种情况下，你不仅要提高现有城市的教育和工资水平，还要从头开始建设一个新城市，并将其发展成拥有世界级教育设施的城市。
+Number of Game Years=50
+
+[MAIN GOAL VALUES]
+Mayor approval rating=80, London
+Education rating=90, London
+City wage rate=80, London
+
+Mayor approval rating=70, Manchester
+Education rating=90, Manchester
+City wage rate=70, Manchester
+
+Build a New City
+
+// nation and average ratings 
+Education rating=90
+National population=1500000
+National wage rate=70
+National unemployment rate=3
+
+[MAIN GOAL REWARDS] 
+Score change=350
+
+//-------------------------------------------------------------------//
+
+[SUBGOAL]
+Goal Title=公司业绩 
+Goal Description=如果你在努力实现城市发展的更大目标，你将获得令人印象深刻的业务成果，你就能赢得这个子目标。
+
+Goal Achieved Text=恭喜！ 你再次证明你是一个非常有才华的商业人士。
+
+[SUBGOAL VALUES]
+Player Company Annual Revenue=1200
+Player Company Annual Profit=120
+
+[SUBGOAL REWARDS] 
+Score change=160
+
+//-------------------------------------------------------------------//
+
+[SUBGOAL]
+Goal Title=政治影响 
+Goal Description=当你的政党成员当选为市长时，你的政治影响力增加。 当你的政治影响分数达到目标目标时，你赢得这个子目标。 （要查看您的政治影响分数，请按F7打开分数报告。）
+Goal Achieved Text=恭喜！ 你的政治影响已经达到了新的高度。
+
+
+[SUBGOAL VALUES]
+Influence Score=200
+
+[SUBGOAL REWARDS] 
+Score change=160
+
+
+

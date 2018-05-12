@@ -1,0 +1,67 @@
+[HEADER]
+Title=投资回报率强化
+Description=你已经制定了一个稳固的战略来提高你公司的投资回报率（ROI）， 包括使用子公司来最大化目标市场的增长和盈利能力。 UIT高水平的管理者在你的子公司关注的市场上表现出色。 但在当今竞争激烈的商业环境中， 真正优秀的管理者是稀缺资源， 受到众多公司的强烈追捧。 你相信你能成功吗？
+Difficulty Rating=100
+DLC=Subsidiary
+
+[ENVIRONMENT]
+Subsidiaries=2
+Number of Cities=5
+Your Start-up Capital=High
+Random Events=Occasional 
+Game Starting Year=1990
+Retail Store Type=Many
+Technology Disruption=On
+Stock Market=Yes
+Alternative Stock Sim=Yes
+Macro Economy Realism=High
+Inflation=Inverse
+Inflation Strength=Normal
+
+
+[COMPETITORS]
+Number of Competitors=28
+Competitor Start-up Capital=High  
+Competitor Aggressiveness=High  
+Competitor Expertise Level=High 
+Show Competitor Trade Secrets=Yes
+AI Friendly Merger=No
+Competence of Local Competitors=Moderate 
+
+[IMPORTS]
+Consumer Goods Seaports=2
+Industrial Goods Seaports=2
+Constant Import Supply=No
+Import Quality=High 
+
+
+//-------------------------------------------------------------------
+
+[MAIN GOAL]
+Goal Title=Incredible ROI
+Goal Description=Incredible ROI
+
+Number of Game Years=80
+
+[MAIN GOAL VALUES]
+Subsidiary Market Cap=2000,2
+Subsidiary Annual Revenue=1200,3
+Subsidiary Annual Profit=200,3
+
+[MAIN GOAL REWARDS] 
+Score change=300
+
+//-------------------------------------------------------------------
+
+[SUBGOAL]
+Goal Title=Surging Personal Wealth
+Goal Description=Surging Personal Wealth
+
+Goal Achieved Text=Congratulations! 
+
+[SUBGOAL VALUES]
+Player Wealth=500
+
+[SUBGOAL REWARDS] 
+Score change=100
+Player expertise change=manufacturing, 60

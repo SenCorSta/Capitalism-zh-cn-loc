@@ -1,0 +1,66 @@
+[HEADER]
+Title=战略定位
+Description=在当今瞬息万变的市场中，企业的敏捷是成功的关键。 不幸的是，大多数公司在它们最终变得庞大臃肿时无法维持。 为了避开这条不受欢迎的道路，你有远景，设立两个子公司， 并战略定位他们每个人专注于特定的市场。 在每个公司掌舵的首席执行官面前，他们可以更快地对市场变化作出反应， 并以更快的速度成长。
+Difficulty Rating=80
+DLC=Subsidiary
+
+[ENVIRONMENT]
+Subsidiaries=2
+Number of Cities=5
+Your Start-up Capital=High
+Random Events=Occasional 
+Game Starting Year=1990
+Retail Store Type=Many
+Technology Disruption=On
+Stock Market=Yes
+Alternative Stock Sim=Yes
+Macro Economy Realism=High
+Inflation=Inverse
+Inflation Strength=Normal
+
+
+[COMPETITORS]
+Number of Competitors=25
+Competitor Start-up Capital=Moderate
+Competitor Aggressiveness=Moderate
+Competitor Expertise Level=Moderate
+Show Competitor Trade Secrets=Yes
+AI Friendly Merger=No
+Competence of Local Competitors=Moderate 
+
+[IMPORTS]
+Consumer Goods Seaports=2
+Industrial Goods Seaports=2
+Constant Import Supply=No
+Import Quality=High 
+
+
+//-------------------------------------------------------------------
+
+[MAIN GOAL]
+Goal Title=战略定位
+Goal Description=在当今迅速变化的市场，企业的敏捷性是成功的关键。 不幸的是，大多数公司无法保持它时，他们最终成为庞大而臃肿。 要避免这种不良的路径，你必须建立两家子公司， 战略定位都集中在特定的市场远见。
+
+Number of Game Years=80
+
+[MAIN GOAL VALUES]
+Subsidiary Annual Revenue=800,2
+Subsidiary Annual Profit=100,2
+
+[MAIN GOAL REWARDS] 
+Score change=200
+
+//-------------------------------------------------------------------
+
+[SUBGOAL]
+Goal Title=高净值子公司
+Goal Description=当你的子公司的净值达到10亿美元时， 你就赢得了这个子目标。 净值是指公司所有资产减去所有未偿还负债的价值。 净资产也被称为股东权益， 你可以从公司详细报告中的资产负债表中查看。
+Goal Achieved Text=祝贺你！你现在有净资产超过10亿美元的两个子公司！
+
+[SUBGOAL VALUES]
+Subsidiary Net Worth=1000,2
+
+[SUBGOAL REWARDS] 
+Score change=100
+Player expertise change=retail, 60
+

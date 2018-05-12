@@ -1,0 +1,138 @@
+[HEADER]
+Title=时装风险 
+Description=这些年来你一直在努力为你启动时装业筹集资金。不幸的是，资金募集过程是艰难而缓慢的。当你最终\n成功启动自己的时装公司（预计将发生在2000年）时，市场上也会出现竞争对手。你有什么好的方法\n来建立你的时尚品牌并在市场中茁壮成长？
+Difficulty Rating=80
+
+[ENVIRONMENT]
+Number of Cities=4
+Your Start-up Capital=High
+Random Events=Occasional 
+Game Starting Year=1990
+Retail Store Type=Many
+Technology Disruption=On
+Stock Market=Yes
+Alternative Stock Sim=Yes
+Macro Economy Realism=High
+Inflation=Inverse
+Inflation Strength=Normal
+
+[CITIES]
+City=Seoul
+City=Warsaw
+City=Paris
+City=Miami
+
+[COMPETITORS]
+Number of Competitors=20
+Competitor Start-up Capital=Moderate  
+Competitor Aggressiveness=Moderate  
+Competitor Expertise Level=Moderate
+Show Competitor Trade Secrets=Yes
+AI Friendly Merger=No
+Competence of Local Competitors=Moderate 
+
+
+Retail Focused Companies=4
+Stock Focused Companies=2
+Real Estate Focused Companies=2
+Tech Focused Companies=2
+Media Focused Companies=2
+Diversified Companies=13
+
+AI Product Expertise=Apparel,1
+//of the 13 diversified companies, 2 of them have expertise in apparel 
+
+[IMPORTS]
+Consumer Goods Seaports=2
+Industrial Goods Seaports=2
+Constant Import Supply=No
+Import Quality=Moderate 
+
+[PLAYER EXPERTISE] 
+Product Expertise=Apparel, 80
+
+[SPECIAL RULES]
+Years of Advanced Start for AI=5
+
+//-------------------------------------------------------------------//
+
+[SUBGOAL]
+Goal Title=推出一个新品牌
+Goal Description=从成立时装公司起你便面临着激烈的竞争，你的近期目标是在维持经营的同时推出一个属于你的时尚品牌。
+
+Goal Achieved Text=恭喜！你的公司的业绩打动投资者，从而有一轮1亿美元的投资到你的公司！
+
+[SUBGOAL VALUES]
+Player Company Annual Revenue=100
+Player Company Annual Profit=10
+
+[SUBGOAL REWARDS] 
+Score change=50
+Corporate cash change=10
+
+//-------------------------------------------------------------------//
+
+[SUBGOAL]
+Goal Title=扩大你的业务
+Goal Description=在你的品牌在强大的资金支持下，你已经在市场上站稳脚，你现在有能力积极拓展业务，并从你的竞争对手\n那里抢占市场份额。
+
+Goal Achieved Text=太棒了！你的公司已经成为一支不可忽视的力量。
+
+Parent Goal=推出一个新品牌
+
+[SUBGOAL VALUES]
+Player Company Annual Revenue=200
+Player Company Annual Profit=20
+
+[SUBGOAL REWARDS] 
+Score change=100
+Personal Cash Change=5
+
+//-------------------------------------------------------------------//
+
+[SUBGOAL]
+Goal Title=市场领导者
+Goal Description=感谢您最近几轮的成功扩张，你现在是在个位置上又一次迎来飞跃，并最终在服装行业成为市场领导者。
+
+Goal Achieved Text=恭喜！从不起眼的开始你已经走过了漫长的道路！ 
+
+Parent Goal=扩大你的业务 
+
+[SUBGOAL VALUES]
+Player Company Annual Revenue=300
+Player Company Annual Profit=30
+
+[SUBGOAL PRODUCTS]
+Apparel
+
+[SUBGOAL REWARDS] 
+Score change=150
+
+
+//-------------------------------------------------------------------//
+
+[MAIN GOAL]
+Goal Title=时装风险 
+Goal Description=皮革制品市场上是非常有利可图的，你应该充分利用你的成功在时装市场拓宽产品线以涵盖皮革制品。当你\n实现在服装和皮革产品的市场主导地位，你将赢得这场比赛。 
+
+Number of Game Years=20
+
+Parent Goal=市场领导者
+
+[MAIN GOAL VALUES]
+Player Company Annual Revenue=500
+Player Company Annual Profit=50
+
+[MAIN GOAL PRODUCTS]
+Apparel 
+Leather Goods
+
+[MAIN GOAL REWARDS] 
+Score change=300
+
+//-------------------------------------------------------------------//
+
+[CHALLENGE GAME]
+Number of Game Years=30
+Ranking Method=Score
+

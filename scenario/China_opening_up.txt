@@ -1,0 +1,100 @@
+[HEADER]
+Title=中国对外开放
+Description=在20世纪90年代，中国继续经济改革取得了长足的进步，每年都吸引着数百亿美元的外国投资。^^你必须在此开设工厂以取得低劳动力成本的优势，同时建立零售业务并开始为您的产品推广品牌知名\n度。^^虽然工资率和对高端产品的需求依然较低，但他们正在迅速增长。^^如果可以成功在市场上立足，在不久的将来，中国消费市场大幅增长的同时你会获得一个的强势地位\n并从中牟取利益。
+
+Difficulty Rating=110
+
+[ENVIRONMENT]
+Number of Cities=5
+Your Start-up Capital=High
+Random Events=Occasional 
+Game Starting Year=1990
+Retail Store Type=Many
+Technology Disruption=On
+Stock Market=Yes
+Alternative Stock Sim=Yes
+Macro Economy Realism=High
+Inflation=Inverse
+Inflation Strength=Normal
+
+[CITIES]
+City=Beijing
+City=Shanghai
+City=Guangzhou
+City=Chengdu
+City=New York City
+
+[COMPETITORS]
+Number of Competitors=20
+Competitor Start-up Capital=Moderate  
+Competitor Aggressiveness=Moderate  
+Competitor Expertise Level=Moderate
+Show Competitor Trade Secrets=Yes
+AI Friendly Merger=No
+Competence of Local Competitors=Moderate 
+
+[IMPORTS]
+Consumer Goods Seaports=2
+Industrial Goods Seaports=2
+Constant Import Supply=No
+Import Quality=Moderate 
+
+[LOCKS]
+Firm, Logging Camp
+Firm, Mine
+Firm, Oil Well
+Firm, TV Station
+Firm, Newspaper Publisher
+Firm, Radio Station
+Firm, Apartment
+Firm, Commercial Building
+Firm, Civic Building
+Firm, Sports Facilities
+
+
+
+//-------------------------------------------------------------------
+
+[MAIN GOAL]
+Goal Title=Seize the Opportunities
+Goal Description=Seize the opportunities that emerge during China's opening-up and grow your company to become a dominating force in the market. 
+
+Number of Game Years=50
+
+[MAIN GOAL VALUES]
+Player Company Net Worth=250
+Player Company Annual Revenue=300
+
+[MAIN GOAL INDUSTRIES]
+Retail 
+Manufacturing 
+
+[MAIN GOAL REWARDS] 
+Score change=200
+
+
+//-------------------------------------------------------------------//
+
+[SUBGOAL]
+Goal Title=Upstream Business 
+Goal Description=In order to receive permission to invest in the natural resource business, your company's net worth must be at least $150 million and have an annual revenue of $200 million. 
+Goal Achieved Text=Congratulations! You may now set up natural resource firms. 
+
+[SUBGOAL VALUES]
+Player Company Net Worth=150
+Player Company Annual Revenue=200
+
+[SUBGOAL REWARDS] 
+Unlock Firm=Logging Camp
+Unlock Firm=Mine
+Unlock Firm=Oil Well
+
+
+//-------------------------------------------------------------------//
+
+[CHALLENGE GAME]
+Number of Game Years=50
+Ranking Method=Score
+
+
+
