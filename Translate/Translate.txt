@@ -1942,11 +1942,20 @@ How much will you allocate for training per employee?|
 If your corporation is using '%' strategy,|
 如果你的公司采用“%“策略，|
 ~
+If your corporation is using 'Corporate Brand' strategy,|
+如果你的公司采用“单一品牌“策略，|
+~
 Current Brand Strategy|
 当前品牌策略|
 ~
 Regularly adjust prices based on inflation|
 基于通胀定期调整价格|
+~
+Regularly adjust team lead salaries based on inflation|
+基于通胀定期调整团队领导薪水|
+~
+Acquire Product Tech From Other Companies|
+从其它公司购买科技（产品）|
 ~
 Increase all product prices monthly at the same rate as inflation|
 以通胀速度相同的频率每月增加所有产品价格|
@@ -9024,6 +9033,72 @@ Bailey Hallock|
 ~
 Steve Jobs|
 史蒂夫乔布斯|
+~
+Samantha Brown|
+珊曼莎布朗|
+~
+Jenifer Esteve|
+詹妮弗埃斯特维|
+~
+Christina Brie|
+克莉丝汀布里|
+~
+Claire Iniguez|
+克莱尔伊尼格斯|
+~
+Alison Schneider|
+艾丽森施奈德|
+~
+Shirley Lee|
+雪莉李|
+~
+Rachel Gomez|
+瑞秋戈麦斯|
+~
+Sonia Figueres|
+索尼亚菲格尔斯|
+~
+Kiara Suri|
+基拉拉苏里|
+~
+Brigette Pfeiffer|
+布里吉特·菲佛|
+~
+Elisia Buomono|
+伊丽莎白布莫诺|
+~
+Liz K. Lam|
+丽兹林|
+~
+Nicole Marie|
+妮科尔玛丽|
+~
+Daniel Sammons|
+丹尼尔萨蒙斯|
+~
+Jim Bosch|
+吉姆博世|
+~
+Michihiro Kakuta|
+卡库塔|
+~
+Fabian Jung|
+费边荣格|
+~
+Raphael Weber|
+拉斐尔韦伯|
+~
+Joseph Weiss|
+约瑟夫魏斯|
+~
+Christophe Schmidt|
+克里斯多夫施密特|
+~
+Koji Takashi|
+高氏曲|
+~
+Clement Tucker|
+克莱门特塔克|
 ~
 Rating Points|
 收视率（Rating Points）|
@@ -58577,4 +58652,61 @@ Sales in 12 Months|
 ~
 Sales in % Months|
 %个月销量|
+~
+No special preference|
+没有特别的偏好|
+~
+Prefer own and subsidiary media firms|
+优先选择自己及子公司的媒体机构|
+~
+Only advertise in own and subsidiary media firms|
+只用自己及子公司的媒体机构|
+~
+Div. |
+股息|
+~
+Forum|
+论坛|
+~
+3 easy steps to download and use a user-created MOD:|
+下载和使用用户创建的MOD的3个简单步骤：|
+~
+Step 1|
+步骤1|
+~
+Download a user-created MOD from these web sites|
+从这些网站下载用户创建的MOD|
+~
+Access Capitalism Lab MOD download page|
+访问金融帝国实验室MOD下载页面|
+~
+OR|
+或|
+~
+Access the Capitalism Lab MOD forum|
+进入金融帝国实验室MOD论坛|
+~
+Step 2|
+步骤2|
+~
+Unpack the downloaded file to your Capitalism Lab's MOD folder.|
+将下载的文件解压缩到您的金融帝国实验室的MOD文件夹。|
+~
+Note: A MOD contains two files: a MOD resource file (.RES) and a MOD description file (.TXT)|
+注意：MOD包含两个文件：MOD资源文件（.RES）和MOD描述文件（.txt）。|
+~
+Open my MOD folder now|
+现在打开我的MOD文件夹|
+~
+Step 3|
+步骤3|
+~
+Refresh the MOD list and select the new MOD to use it.|
+刷新MOD列表并选择新的MOD来使用它。|
+~
+Refresh the MOD list|
+刷新mod列表|
+~
+Download User-created MODs|
+下载用户创建的MOD（双击）|
 ~
