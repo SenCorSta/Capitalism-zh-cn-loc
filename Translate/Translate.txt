@@ -1490,7 +1490,7 @@ Automobile Outlet|
 汽车专卖店|
 ~
 Electronics Store|
-家用电器电|
+家用电器店|
 ~
 Footwear Store|
 鞋店|
@@ -2196,6 +2196,9 @@ Relocate Firm|
 ~
 Relocate This Firm|
 搬迁企业|
+~
+Relocate|
+重新指定|
 ~
 Are you sure that you want to demolish this firm?|
 你确定要拆除这个企业？|
@@ -12018,6 +12021,9 @@ CORPORATIONS (Total:|
 Months|
 个月
 ~
+months|
+个月
+~
 Own technology level|
 掌握的科技等级
 ~
@@ -13113,6 +13119,9 @@ Job Candidates|
 Skill|
 技能|
 ~
+Skill/Loyalty|
+技能/忠诚度|
+~
 Salary|
 薪资|
 ~
@@ -13138,13 +13147,13 @@ Team Lead|
 三维图形|
 ~
 Computer OS Core|
-计算机操作系统内核|
+操作系统内核|
 ~
 Computer OS Display|
-计算机操作系统显示|
+操作系统显示|
 ~
 Computer OS Input|
-计算机操作系统输入|
+操作系统输入|
 ~
 Database Tech|
 数据库技术|
@@ -13165,7 +13174,7 @@ Animation Engine|
 动画引擎|
 ~
 CAD Engine|
-计算机辅助设计引擎|
+CAD引擎|
 ~
 2D Drawing Engine|
 二维绘图引擎|
@@ -13207,13 +13216,13 @@ Video Playing Tech|
 视频播放技术|
 ~
 Office Features|
-办公室特色|
+办公软件特征|
 ~
 Security Tech|
 安全技术|
 ~
 Utility Tech|
-实用技术|
+工具类技术|
 ~
 Audio Tech|
 音频技术|
@@ -58398,8 +58407,14 @@ OS info|
 Products running on |
 运行的产品在 |
 ~
+Products running on  |
+运行的产品在 |
+~
 Products running on|
 运行的产品在|
+~
+Products running on SOS|
+运行的产品在SOS|
 ~
 User base|
 用户基数|
@@ -58709,4 +58724,73 @@ Refresh the MOD list|
 ~
 Download User-created MODs|
 下载用户创建的MOD（双击）|
+~
+Digital|
+数码|
+~
+Issued Bonds|
+已发行债券|
+~
+Personal Computer Users|
+PC用户数|
+~
+PC Internet Users|
+网民数|
+~
+YTD Changes|
+年初至今变化|
+~
+Last Year Changes|
+去年变化|
+~
+Digital Age Dominance|
+统治数字时代|
+~
+Achieve market dominance in Mobile Operating System and gain a significant market share in the Internet sector.|
+在移动操作系统中获得市场支配地位，并在互联网领域获得巨大市场份额。|
+~
+Achieve market dominance in Computer Operating System and gain a significant market share in the Internet sector.|
+在计算机操作系统中获得市场优势，并在互联网领域获得巨大市场份额。|
+~
+Digital Age Dominance (Main Goal)|
+统治数字时代(主要任务)|
+~
+Market Dominance of |
+占领市场通过|
+~
+Achieve market dominance in |
+达成市场份额第一在|
+~
+Current Project|
+进行中的项目|
+~
+Target Overall Tech|
+目标平均科技|
+~
+Target Quality|
+目标品质|
+~
+Cancel Project|
+放弃项目|
+~
+Hire persons with Project Management skills|
+雇佣一个项目经理|
+~
+Hire persons with Project Programming skills|
+雇佣一个编码人员|
+~
+Reminder: You may find additional job candidates in other cities.|
+提醒：你可能会在其他城市找到更多的求职者。|
+~
+Offer % Salary + Signup Bonus (1 year salary)|
+提供 %% 薪水 + 佣金 (1 年 薪水)|
+~
+% Salary + Signup Bonus (1 year salary)|
+% 薪水佣金|
+~
+Do you want to sell this land plot for %|
+以这个价格卖掉土地：%|
+~
+Tech Skill|
+技能类型|
 ~
