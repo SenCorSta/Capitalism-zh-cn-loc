@@ -63,7 +63,7 @@ Health rating=90, Berlin
 Social Security rating=90, Berlin
 
 Mayor approval rating=70, Frankfurt
-City population=400000, Hamburg
+City population=400000, Frankfurt
 Housing and Community Facilities rating=90, Frankfurt
 Health rating=90, Frankfurt
 Social Security rating=90, Frankfurt

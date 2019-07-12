@@ -136,7 +136,7 @@ Text Box=32,250,350,0
 Pointer=687,292,702,298
 
 [CONDITION]
-Unit Exists=3
+Unit Linked=Livestock Processing, Sales, 2, 3
 
 //-------------------------------------------------------------------//
 
