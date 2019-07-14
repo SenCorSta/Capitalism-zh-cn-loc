@@ -1,0 +1,2803 @@
+B_TOOL
+Toolbox
+Display the Toolbox menu. Press Ctrl-T to toggle between the standard menu and the extended menu. 
+~
+B_MINMAP
+Mini Map (hotkey: 'M')
+Display the Mini Map
+~
+B_WORLD
+World Map (Ctrl-W)
+Display the World Map
+~
+B_INFO
+Information Center
+Open the Information Center screen
+~
+B_WATCH
+Event Tracker (hotkey: F5)
+Open the Event Tracker Window
+~
+B_BACK
+Back to previous firm (hotkey: q)
+Go back to the previously selected firm
+~
+B_CASH
+Your Corporation's Cash
+This figure is the amount of cash your corporation currently has. 
+~
+B_PROFIT
+Your Corporation's Operating Profit
+This figure is your corporation's operating profit over the past 12 months. 
+~
+B_CHART
+Your Corporation's Monthly Profit & Loss Chart 
+Vertical bars represent your corporation's monthly profit or loss. A red bar indicates a loss; a green bar indicates a profit.
+~
+B_DATE
+Current Date
+This is the current game date
+~
+T_BUILD
+Build Menu (hotkey: B)
+Click to open the Build Menu
+~
+T_BUYLND
+Buy plots of land
+Activate the mode for buying plots of land 
+~
+T_SETLND
+Land-use planning
+Use this tool to restrict different areas of your city to specific uses. 
+~
+T_GOAL 
+Goal Report (hotkey: G)
+Open the Goal report 
+~
+T_ZOOM1
+Smallest zoom level (hotkey: ',')
+Click to change city view to smallest zoom level.
+~
+T_ZOOM2
+Normal zoom level (hotkey: '.')
+Click to change city view to normal zoom level.
+~
+T_ZOOM3
+Largest zoom level (hotkey: '/')
+Click to change city view to largest zoom level
+~
+MMENUPSR
+Product Summary Report (hotkey: 'P')
+Click to open the Product Summary Report 
+~
+MMENUCSR
+Corporate Summary Report (hotkey: 'C')
+Click to open the Corporate Summary Report
+~
+MMENUFR
+Firm Summary Report (hotkey: 'F')
+Click to open the Firm Summary Report
+~
+MMENUHQ (hotkey: 'H')
+Headquarters
+`
+~
+MMENUSM
+Stock Market
+Open the Stock Market screen
+~
+MMENUGM
+Game Menu (hotkey: ESC)
+Save, Load, Retire, return to main menu or return to Windows.
+~
+MMENUOM
+Options Menu (hotkey: 'O')
+Display the game options menu.
+~
+MMENUSP
+Game Speed (hotkey: '1' to '5')
+Click the speed dial to alter the game speed.
+~
+OM_NEWS
+News Display Option (hotkey: 'N')
+Open the News Display options screen
+~
+OM_OK
+Ok
+`
+~
+OM_CN
+Cancel
+`
+~
+OM_IS_A
+Disable Internal Sale
+Click to disable Internal Sale and allow competitors to buy your products
+~
+OM_IS_B
+Enable Internal Sale
+Click to enable Internal Sale and ban competitors from buying your products
+~
+OM_AL_A
+Disable AutoLink to Supplier 
+Click to disable AutoLink to Supplier. You must select suppliers manually
+~
+OM_AL_B
+Enable AutoLink to Supplier 
+Click to enable AutoLink to Supplier. Your purchasing units will attempt to find a supplier
+~
+OM_TO_A
+Do not consider Tender Offers from other players. 
+A tender offer is an offer to buy shares of a corporation, usually at a price in excess of the value of the shares on the stock market. 
+~
+OM_TO_B
+Consider Tender Offers from other players. 
+A tender offer is an offer to buy shares of a corporation, usually at a price in excess of the value of the shares on the stock market. 
+~
+OM_TE_A
+Do not consider offers from other companies for buying your technology.
+`
+~
+OM_TE_B
+Consider offers from other companies for buying your technology.
+`
+~
+OM_AR_A
+Disable Auto Apply R&D Results to your factories' manufacturing units.
+Click to disable Auto Apply R&D Results. You must apply R&D results to your factories manually. 
+~
+OM_AR_B
+Enable Auto Apply R&D Results to your factories' manufacturing units.
+Click to enable Auto Apply R&D Results. Latest R&D results will automatically be applied to your factories without asking your permission. 
+~
+OM_GS_A
+Very Slow
+`
+~
+OM_GS_B
+Slow
+`
+~
+OM_GS_C
+Normal
+`
+~
+OM_GS_D
+Fast
+`
+~
+OM_GS_E
+Very Fast
+`
+~
+OM_MU_A
+Music Off
+`
+~
+OM_MU_B
+Music On
+`
+~
+OM_SE_A
+Sound Effects Off
+Click to disable sound effects 
+~
+OM_SE_B
+Sound Effects On
+Click to hear sound effects 
+~
+OM_HE_A
+No Help Information
+Click to disable in-game help information
+~
+OM_HE_B
+Brief Help Information
+Click to enable brief in-game help information
+~
+OM_HE_C
+Detailed Help Information
+Click to enable detailed in-game help information
+~
+OM_AS_A
+Disable Auto Save 
+Click to disable Auto Save
+~
+OM_AS_B
+Enable Auto Save
+Click to enable Auto Save
+~
+OM_QK_A
+Disable the enhanced hotkey system. 
+`
+~
+OM_QK_B
+Enable the enhanced hotkey system. 
+`
+~
+MMAPPT
+Previous City (hotkey: '[')
+Click to display previous city
+~
+MMAPNT
+Next City (hotkey: ']')
+Click to display next city
+~
+MMAPCM
+Close Mini Map
+Click to close Mini Map
+~
+MMAPTB
+City Selection Mode
+`
+~
+MMAPTS
+Select City
+Select city and update main city view
+~
+MMAPBF
+Firm Filter
+Toggle Firm Filter to select only specific firms for the map display. Right-click to set the filter based on the current firm. 
+~
+MMAPMMO
+Business Ownership Mode
+Click to toggle Business Ownership Mode - Buildings are displayed in their corporate colors.
+~
+MMAPMMV
+Land Value Mode
+Click to toggle Land Value Mode - darker colors indicate high land values.
+~
+MMAPMMP
+Profit Mode
+Click to toggle Profit Mode - brighter colors indicate profitable firms.
+~
+MMAPMMR
+Land Ownership and Resources Mode
+Click to toggle Land Ownership and Resources Mode - land ownership and natural resources are displayed.
+~
+MMAPMMB
+Business Relationship Mode
+Click to toggle Business Relationship Mode - with a firm selected this mode will display linkage lines to firms in direct business with the selected firm.
+~
+MMAPPUB
+Population and Public Services Mode
+Population density is shown in dark brown colors. Select a civic building or sports facilities to see how conveniently citizens have access to the public services.
+~
+MMAPPOL
+Population and Pollution Mode
+Population density is shown in dark brown colors. Pollution is shown in orange and red colors: Red indicates pollution in populated areas; Orange indicates pollution in unpopulated or very sparsely populated areas.  
+~
+MMAPMM_S
+Soil Map Mode
+`
+~
+MMAPMMI
+Firm Information Display Mode
+Click to toggle Firm Information Display Mode: 1) Firm types are displayed in the main city view. 2) Utilization rates are displayed for factories, farms and mines. 3) Occupancy rates are displayed for apartments and commercial buildings. 
+~
+MMAPAC
+Apartments and Commercial Buildings Display 
+Click to toggle the display of apartments and commercial buildings.
+~
+SFM_K1
+Custom Filter
+Right-click to define this custom filter. Left-click to activate this custom filter.
+~
+SFM_K2
+Custom Filter
+Right-click to define this custom filter. Left-click to activate this custom filter.
+~
+SFM_K3
+Custom Filter
+Right-click to define this custom filter. Left-click to activate this custom filter.
+~
+SFM_KT
+All Cities Or Current City filter
+Toggle the filter mode between All Cities and Current City. 
+~
+SFM_KM
+Player's Firm Filter (hotkey: F8)
+Toggle Player's Firm Filter to display only player's firms in the Mini Map display
+~
+SFM_KF
+Firm Filter
+Toggle Firm Filter to display only specific firm types in the Mini Map display. Right-click to set the filter based on the current firm. 
+~
+SFM_KC
+Corporate Filter
+Toggle Corporate Filter to display a specific corporation in the Mini Map. Right-click to set the filter based on the current firm. 
+~
+SFM_KP
+Product Filter
+Toggle Product Filter to display locations of a specific product in the Mini Map. 
+~
+SFM_KPB
+Previous Building (hotkey: PgUp)
+Display the previous building - city view is centered on building
+~
+SFM_KNB
+Next Building (hotkey: PgDn)
+Display the next building - city view is centered on building
+~
+SFM_SB
+Selected Building Number
+Displays the selected building's number from the total number of buildings based on the filter settings 
+~
+SFM_TB
+Number of Buildings
+Displays the total number of buildings based on the filter settings
+~
+WM_CW
+Close World Map
+Close the world map window
+~
+FE_TD
+Left-click to decrease. Right-click to decrease at a higher rate.
+`
+~
+FE_TU
+Left-click to increase. Right-click to increase at a higher rate.
+`
+~
+FE_RD
+Left-click to decrease. Right-click to decrease at a higher rate.
+`
+~
+FE_RU
+Left-click to increase. Right-click to increase at a higher rate.
+`
+~
+FE_AL
+Auto Locate
+`
+~
+IN_PD_PD
+Left-click to decrease. Right-click to decrease at a higher rate.
+`
+~
+IN_PD_PI
+Left-click to increase. Right-click to increase at a higher rate.
+`
+~
+IN_PD_PC
+Apply this price change to the selected product. 
+`
+~
+IN_PD_AA
+Apply this price change to all your retail stores in the same city.
+`
+~
+IN_MG_PM
+Previous Product
+Display previous product
+~
+IN_MG_NM
+Next Product
+Display next product
+~
+IN_MG_IP
+Input Material
+Select a new input material
+~
+IN_MG_OP
+Output Product
+Select a new output product 
+~
+IN_MG_MI
+More products using this input material
+Display more products using this input material
+~
+IN_MG_FP
+Terminate Employment
+Click to terminate employment
+~
+IN_MG_HP
+Hire Chief Operating Officer
+Click to hire Chief Operating Officer
+~
+IN_MG_HM
+Hire Chief Marketing Officer
+Click to hire Chief Marketing Officer
+~
+IN_MG_HT
+Hire Chief Technical Officer
+Click to hire Chief Technical Officer
+~
+IN_SM_M
+Merge Corporations
+Click to merge corporations
+~
+IN_SM_O
+Make a Tender Offer
+Make a tender offer to the selected shareholder of the current stock. 
+~
+IN_SM_B
+Buy Stock
+Click to buy the displayed stock 
+~
+IN_SM_BX
+Buy Stock
+You can only trade stock once a day in a Challenge Game.  
+~
+IN_SM_OI
+Left-click to increase. (hotkey: '+' or '=')
+Right-click to increase at a higher rate.
+~
+IN_SM_OD
+Left-click to decrease. (hotkey: '-' )
+Right-click to decrease at a higher rate.
+~
+IN_SM_BI
+Buy more stock
+`
+~
+IN_SM_BD
+Buy less stock
+`
+~
+IN_SM_SI
+Sell more stock
+`
+~
+IN_SM_SD
+Sell less stock
+`
+~
+IN_SM_S
+Sell Stock
+Click to sell the displayed stock
+~
+IN_SM_SX
+Sell Stock
+You can only trade stock once a day in a Challenge Game.  
+~
+IN_SM_GD
+Daily Stock Graph
+Click to display the daily stock graph for the past 30 days.
+~
+IN_SM_GM
+Monthly Stock Graph
+Click to display the monthly stock graph for the past 36 months.
+~
+IN_SM_GY
+Yearly Stock Graph
+Click to display the yearly stock graph for the past 30 years. 
+~
+IN_SM_GL
+Yearly Stock Graph
+Click to display the yearly stock graph over its lifetime. 
+~
+IN_SM_NW
+Enable/Disable Stock News
+Click to toggle the stock news option on or off. If this option is on stock purchases and sales will be headlined in the city view
+~
+NEWS_L
+Open News Log window (hotkey:'V')
+`
+~
+NEWS_LC
+Close News Log window (hotkey:'V')
+`
+~
+NEWS_B
+News Action Button 
+`
+~
+IF_S
+Offer to sell this firm
+`
+~
+IF_B
+Buy This Firm
+`
+~
+IF_D
+Demolish This Firm
+`
+~
+IF_PERS
+Person Details 
+Click here to view the person's details. 
+~
+IF_SC
+Shortcut To Corporation Detail Report
+Click here to open the Corporation Detail Report
+~
+IF_H
+Manager's Guide (hotkey: F3)
+`
+~
+IF_W
+Wizard
+`
+~
+IF_L
+Layout Plan Library (hotkey: F7)
+Click to open the Layout Plan Library
+~
+IF_F
+Financial Report (hotkey: F6)
+Click to open the Firm Financial Report
+~
+IF_AL
+Auto Link Supplier
+Click to allow purchasing units to find their own suppliers
+~
+IF_T
+培训
+移动滑块以更改培训等级。^随着培训，公司经营部门将逐步推进到更高的水平，从而提高其效率。
+~
+IFM_S
+Offer to sell this mansion
+`
+~
+IFM_PD
+Left-click to decrease. Right-click to decrease at a higher rate.
+`
+~
+IFM_PI
+Left-click to increase. Right-click to increase at a higher rate.
+`
+~
+IFM_D
+Demolish This Mansion
+`
+~
+IFM_B
+Buy This Mansion
+`
+~
+IFM_CO
+Make a Counter Offer
+`
+~
+IFF_FW
+Next Product
+`
+~
+IFF_BW
+Previous Product
+`
+~
+IFF_PI
+Left-click to increase. Right-click to increase at a higher rate.
+`
+~
+IFF_PD
+Left-click to decrease. Right-click to decrease at a higher rate.
+`
+~
+IFF_PC
+Confirm change to Selling Price
+`
+~
+IFF_GP
+Profit Graph
+Click to display the Profit graph for this product
+~
+IFF_GR
+Revenue Graph
+Click to display the Revenue graph for this product
+~
+IFF_GQ
+Quantity Sold Graph
+Click to display the Quantity Sold graph for this product
+~
+IFR_PI
+Left-click to increase. Right-click to increase at a higher rate.
+`
+~
+IFR_PD
+Left-click to decrease. Right-click to decrease at a higher rate.
+`
+~
+IFR_PC
+Confirm change to selling price
+`
+~
+IFR_L
+Link This Item
+`
+~
+IFR_GP
+Profit Graph
+Click to display the Profit graph for this product
+~
+IFR_GR
+Revenue Graph
+Click to display the Revenue graph for this product
+~
+IFR_GQ
+Quantity Sold Graph
+Click to display the Quantity Sold graph for this product
+~
+IFT_PP
+Previous Product
+Click to display the previous product
+~
+IFT_NP
+Next Product
+Click to display the next product
+~
+IFT_PI
+Left-click to increase. Right-click to increase at a higher rate.
+`
+~
+IFT_PD
+Left-click to decrease. Right-click to decrease at a higher rate.
+`
+~
+IFT_PC
+Confirm change to selling price
+`
+~
+IFT_L
+Link This Item
+`
+~
+IFT_GP
+Profit Graph
+Click to display the Profit graph for this product
+~
+IFT_GR
+Revenue Graph
+Click to display the Revenue graph for this product
+~
+IFT_GQ
+Quantity Sold Graph
+Click to display the Quantity Sold graph for this product
+~
+IFD_PP
+Previous Research Project 
+Click to display the previous Research Project 
+~
+IFD_NP
+Next Research Project 
+Click to display the next Research Project 
+~
+IFS_PP
+Previous Product
+Click to display the previous product
+~
+IFS_NP
+Next Product
+Click to display the next product
+~
+IFS_L
+Link This Item
+`
+~
+IFS_GP
+Profit Graph
+Click to display the Profit graph for this product
+~
+IFS_GR
+Revenue Graph
+Click to display the Revenue graph for this product
+~
+IFS_GQ
+Quantity Sold Graph
+Click to display the Quantity Sold graph for this product
+~
+IFB_BI
+Left-click to increase. Right-click to increase at a higher rate.
+`
+~
+IFB_BD
+Left-click to decrease. Right-click to decrease at a higher rate.
+`
+~
+IFB_BC
+Borrow Money 
+`
+~
+IFB_RI
+Left-click to increase. Right-click to increase at a higher rate.
+`
+~
+IFB_RD
+Left-click to decrease. Right-click to decrease at a higher rate.
+`
+~
+IFB_RC
+Repay Loan
+`
+~
+IFA_PP
+Previous Product
+Click to display previous product
+~
+IFA_NP
+Next Product
+Click to display the next product
+~
+IFA_PI
+Left-click to increase. Right-click to increase at a higher rate.
+`
+~
+IFA_PD
+Left-click to decrease. Right-click to decrease at a higher rate.
+`
+~
+IFA_L
+Link This Item
+`
+~
+IFA_GP
+Profit Graph
+Click to display the Profit graph for this product
+~
+IFA_GR
+Revenue Graph
+Click to display the Revenue graph for this product
+~
+IFA_GQ
+Quantity Sold Graph
+Click to display the Quantity Sold graph for this product
+~
+IFH_DI
+Left-click to increase. Right-click to increase at a higher rate
+`
+~
+IFH_DD
+Left-click to decrease. Right-click to decrease at a higher rate
+`
+~
+IFH_DC
+Confirm the new dividend
+`
+~
+IFH_DN
+Cancel
+`
+~
+IFH_DS
+Set New Dividend
+Set dividend to be paid to shareholders at year end
+~
+IFH_TI
+Left-click to increase. Right-click to increase at a higher rate
+`
+~
+IFH_TD
+Left-click to decrease. Right-click to decrease at a higher rate
+`
+~
+APPL_ALL
+Apply All
+Apply the change to all your firms 
+~
+APPL_SEL
+Apply Selected
+Go to the Firms report and select those of your firms that you want to apply the change
+~
+IFH_TO
+Organize An Intensive Training Program
+`
+~
+IFH_CED
+Display Chief Executive Officer Details
+`
+~
+IFH_COD
+You can assign COO to manage your individual firms. Click here to view profile details. 
+`
+~
+IFH_COC
+Hire a new Chief Operating Officer. 
+When you click this button, it will go to the Person screen and let you select a person to offer to hire. 
+~
+IFH_CMD
+CMO manages all your advertising units. Click here to view profile details. 
+`
+~
+IFH_CMC
+Hire a new Chief Marketing Officer. 
+When you click this button, it will go to the Person screen and let you select a person to offer to hire. 
+~
+IFH_CTD
+CTO manages all your R&D centers. Click here to view profile details. 
+`
+~
+IFH_CTC
+Hire a new Chief Technical Officer. 
+When you click this button, it will go to the Person screen and let you select a person to offer to hire. 
+~
+IFH_IRD
+Monthly Spending Adjustment
+`
+~
+IFH_PRD
+Adjust monthly spending on investor relations efforts 
+`
+~
+IFH_WAI
+Left-click to increase. Right-click to increase at a higher rate.
+`
+~
+IFH_WAD
+Left-click to decrease. Right-click to decrease at a higher rate.
+`
+~
+IFH_WAO
+Make Your Offer
+`
+~
+IFH_WAN
+Cancel
+`
+~
+IFM_L
+Link This Media
+`
+~
+IFM_BD
+Click to set the monthly budget for new content development.  
+New content development is essential for increasing the Content Quality rating. A higher Content Quality rating leads to higher Rating Points. 
+~
+IFM_BL
+Adjust licensing budget
+`
+~
+IFM_AD
+Click to set next month's advertising pricing. 
+The new advertising pricing (the cost per thousand impressions) will become effective next month. 
+~
+IFI_AI
+Left-click to increase. Right-click to increase at a higher rate.
+`
+~
+IFI_AD
+Left-click to decrease. Right-click to decrease at a higher rate.
+`
+~
+IFI_PI
+Left-click to increase. Right-click to increase at a higher rate.
+`
+~
+IFI_PD
+Left-click to decrease. Right-click to decrease at a higher rate.
+`
+~
+IFI_IS
+Issue New Shares
+`
+~
+MG_EX1
+Click here to see products which are made of this semi-product.
+`
+~
+MG_EX2
+Click here to see how this input material is produced.
+`
+~
+MG_EX3
+This is a farm product. Click here to see how this input material is produced.
+`
+~
+MG_EX4
+Click here to see how this can be used to make other products.
+`
+~
+IF_ADD
+Click here to add a new product (hotkey: A)
+`
+~
+IF_ADD2
+Shortcut for selecting a layout plan for this firm. 
+`
+~
+IF_ADD3
+Set up a new production for this firm. 
+`
+~
+IFM_C
+Cancel sale of Mansion
+`
+~
+IFM_XM
+Close
+`
+~
+IFT_PMSB
+Product Market Share Indicator
+The red bar tells the your market share for this product in the current city.  
+~
+IFT_PRB
+Product Rating Indicators 
+Orange bar = Brand rating. Green bar = Quality rating. Yellow bar = Price rating. The Product Overall rating is the sum total of these 3 ratings. 
+~
+IFT_PRB2
+Product Rating Indicators
+Green bar = Quality rating. Yellow bar = Price rating. The Product Overall rating is the sum total of these 2 ratings. 
+~
+IFT_CITY
+City Average 
+It shows the average ratings of this product in the current city. The average ratings are derived from your competitors' products and your products. Therefore if your product's ratings are higher than the city averages, your products will sell better. 
+~
+IFT_SD
+Product Supply and Demand Indicators 
+Yellow bar = the Supply. Orange bar = the Demand. When the demand (orange) bar is longer than the supply (yellow) bar, it means you do not have enough supply to meet the demand.
+~
+ISUPPLY
+Product Supply Indicator 
+It shows the percentage of the product demand at this purchasing unit is met by the supply.
+~
+U_LEVEL
+Experience Level of the Unit 
+The overall productivity and capacity of most units increase when their unit
+levels increase. Training will increase them increase their levels faster.   
+~
+U_UTIL
+Capacity Utilization Rate of the Unit 
+A high utilization rate means that your unit is operating efficiently. A low rate means that your unit has idle time and its capacity is not well utilized. 
+~
+U_STOCK
+Stock at the Unit 
+The stock kept at the current unit. 
+~
+U_WORKER
+Workers at the Unit 
+Novice workers wear red uniforms, whereas experienced workers wear blue. When all the workers in a unit become experienced, the unit level will increase by one (training will speed this up).
+~
+LO_IN_E1
+Single-click here to select this functional unit. Double-click to change it
+`
+~
+LO_IN_E2
+Double-click here to add a functional unit
+`
+~
+LO_IN_E3
+Hotkey: Press the first letter of the name of an functional unit to add it instantly.
+`
+~
+IFT_PBI
+Product Brand indicator
+The color shown here tells which company is the producer of this product. Gray colors means imports from seaports.  
+~
+JU_001
+Stop the current linkage
+`
+~
+JU_002
+Link to a new media firm for advertising 
+`
+~
+JU_003
+Grow Crop
+`
+~
+JU_004
+Raise livestock
+`
+~
+JU_005
+Select product
+`
+~
+JU_006
+Clear Stock
+`
+~
+JU_007
+Upgrade production technology 
+Upgrade this manufacturing unit to use the latest production technology that your company possesses. 
+~
+JU_008
+Set production  
+More than one product type can be produced using the existing inputs. Click here to select the production type you prefer. 
+~
+JU_009
+Link to a new supplier
+`
+~
+JU_010
+Show the current supplier
+`
+~
+JU_011
+Stop purchasing from the current supplier
+`
+~
+JU_012
+Clear all existing stock
+`
+~
+JU_013
+R&D New Software
+`
+~
+JU_014
+Start a R&D project for a new product invention. 
+`
+~
+JU_015
+Start a R&D project for improving production technology. 
+`
+~
+J_RADRD
+Start a radical R&D project for improving production technology. 
+`
+~
+J_RADRDX
+Radical R&D Project not possible. 
+The R&D skill of the manager of this R&D firm must be at least 20 in order to start a radical R&D project. 
+~
+JU_016
+Apply the latest production technology to the current manufacturing unit.
+`
+~
+JU_017
+Terminate supplies to existing clients. 
+`
+~
+JU_018
+Clear existing stock of this product. 
+`
+~
+JU_019
+Clear existing stock of this product. 
+`
+~
+JU_020
+Toggle Internal Sale. 
+When Internal Sale is enabled, competitors cannot purchase this product from you. If you want to enable Internal Sale by default, you can open the Option menu (hotkey: 'O') and set Default Internal Sale to Enabled. 
+~
+JU_021
+Show Clients
+`
+~
+VM_001
+Information view
+`
+~
+VM_002
+Exterior view
+`
+~
+VM_003
+Interior view
+`
+~
+PD_S_GRP
+Enable or disable product sale graph
+`
+~
+CDR_P_01
+Show products that your company produces or sells in retail sector
+`
+~
+CDR_P_02
+Show products that your company produces
+`
+~
+CDR_P_03
+Show products that your company sells in retail sector
+`
+~
+CDR_T_01
+Show all technologies.
+`
+~
+CDR_T_02
+Show here if your company's technology level >= 30.
+`
+~
+CDR_T_03
+Only show all products that your company is currently producing. 
+`
+~
+CDR_T_04
+Only show technologies that your company is currently researching.
+`
+~
+CDR_T_GO
+Go to the responsible R&D center
+Go to your R&D center responsible for researching the selected technology. You may also double-click on a R&D record to do the same. 
+~
+CDR_D_01
+Show all industries and product classes
+`
+~
+CDR_D_02
+Only show industries and product classes in which your company has market shares
+`
+~
+CDR_D_03
+Only show industries and product classes which your company dominates
+`
+~
+MFT_IN
+To locate an specific input, type the first letter of its name. 
+`
+~
+MFT_OUT
+To locate an specific output, type the first letter of its name. 
+`
+~
+PLAN_1
+Go to the next layout plan found.
+`
+~
+PLAN_2
+Add the current firm's layout to the plan library
+`
+~
+PLAN_3
+Delete this layout plan
+`
+~
+PLAN_4
+Replace this layout plan with the current firm's layout.
+`
+~
+PLAN_5
+Sort the layout plans in this library by their descriptions.
+`
+~
+PLAN_6
+Use this layout plan on this current firm.
+`
+~
+PLAN_7
+Exit the layout plan library
+`
+~
+PLAN_8
+Available Supplies
+`
+~
+CH_CHAT
+Click this icon or press ENTER to type a chat message.
+`
+~
+CH_ALL
+Select this and the message will be sent to all players
+`
+~
+CH_COLOR
+Select a color and the message will only be sent to the player with that color
+`
+~
+CH_CLOSE
+Close this chat window
+`
+~
+CH_LOG
+Open the chat log
+`
+~
+RENTFIXA
+Fix this apartment's rent to the market rate. 
+If this is enabled, the computer will automatically adjust the apartment's rent based on the market rate. You may also set a modifier on top of the market rate. For example, you may set your apartment's rent to be always 10% higher than the market rate. 
+~
+RENTFIXC
+Fix this commercial building's rent to the market rate. 
+If this is enabled, the computer will automatically adjust the commercial building's rent based on the market rate. You may also set a modifier on top of the market rate. For example, you may set your commercial building's rent to be always 10% higher than the market rate. 
+~
+BUYFIRMA
+This apartment is for sale. Click here to buy it.  
+`
+~
+BUYFIRMC
+This commercial building is for sale. Click here to buy it.  
+`
+~
+FORSALEA	
+Click here to put this apartment up for sale. Click again to cancel it. 
+`
+~
+FORSALEC
+Click here to put this commercial building up for sale. Click again to cancel it. 
+`
+~
+DEMOLISA
+Demolish this apartment.  
+`
+~
+DEMOLISC
+Demolish this commercial building. 
+`
+~
+AR_COMM
+Community Facilities 
+Increase this rating by building more community facilities close to this apartment.
+~
+AR_SHOP
+Shopping Convenience 
+Increase this rating by building more retail shops near close to apartment.
+~
+AR_GREEN
+Green and Sports Rating 
+Keep a distance between this apartment and other buildings, specially factories and mines. Sport facilities and parks will help too.
+~
+AR_RENT
+Rent Attractiveness 
+Increase this rating by decreasing the rent you are asking for.
+~
+AR_OVERA
+Overall Rating 
+The overall rating is a combination of the above ratings. 
+~
+CR_DIST
+Distance to Central Business District(CBD)
+The shorter the distance to Central Business District(CBD), the higher this rating is.
+~
+CR_COMMU
+Commuting Convenience 
+A high Commuting Convenience rating means that there are residential buildings nearby and the commuting distance is short.  
+~
+F_OSALE
+For Sale 
+Click here to put this firm up for sale. Click again to cancel it. 
+~
+F_AISALE
+Buy Firm 
+This firm is for sale. Click the [Buy Firm] button below to buy it.
+~
+F_BUY
+Click to buy this firm
+`
+~
+F_MOVDEM
+Relocate or Demolish this firm (hotkey: Ctrl-X)
+You may relocate this firm in the same city, or demolish it.  
+~
+F_DEMOLI
+Demolish this firm
+`
+~
+ASSIGN_M
+Click here to set the manager of this firm (hotkey: 'z').
+`
+~
+F_GRAPH
+Click here to switch between display modes 
+`
+~
+P_SEARCH
+Search for a specific product (Hotkey: Tab) 
+`
+~
+P_PREV  
+Previous Product (Hotkey: 'u')
+`
+~
+P_NEXT  
+Next Product (Hotkey: 'x')
+`
+~
+P_GO  
+Go to the firm selling or producing this product (Hotkey: Enter) 
+`
+~
+CS_LOGO
+Click here to go to the Corporate Details page.
+`
+~
+CS_PERS
+Click here to go to the Persons page.
+`
+~
+CS_PROF
+Click here to go to the Financials page.
+`
+~
+CS_STOCK
+Click here to go to the Stock Market. 
+`
+~
+I_CSUM
+Hotkey: 'C'
+`
+~
+I_CDET
+Hotkey: 'D'
+`
+~
+I_PSUM
+Hotkey: 'P'
+`
+~
+I_PDET
+Hotkey: 'R'
+`
+~
+I_FIRM
+Hotkey: 'F'
+`
+~
+I_FINAN
+Hotkey: 'I'
+`
+~
+I_PERSON
+Hotkey: 'E'
+`
+~
+I_GOAL
+Hotkey: 'G'
+`
+~
+I_SCORE
+Hotkey: F7
+`
+~
+I_MFT
+Hotkey: F1
+`
+~
+I_FARM
+Hotkey: F2
+`
+~
+I_MANAG
+Hotkey: F3
+`
+~
+I_CITY
+Hotkey: 'T'
+`
+~
+I_NATION
+Hotkey: 'Y'
+`
+~
+I_ECO
+Hotkey: 'Y'
+`
+~
+I_FINACT
+Hotkey: F11
+`
+~
+I_STOCK
+Hotkey: F4
+`
+~
+CTRAFFIC 
+Customer Traffic index of this area
+The higher the customer traffic index, the larger the number of potential customers will visit this retail store. 
+~
+FIRM_REP
+Shortcut to Firm Summary 
+Click here to go to the Firm Summary report 
+~
+SUBSONLY 
+Show your corporation and subsidiaries only 
+Click here to toggle this filter on and off. 
+~
+SHOWNP
+Toggle News Popup 
+Enable or disable the option of popping up news windows for important news.
+~
+T_PGROW
+City Population Growth 
+A city's population growth is supported by a low employment rate, high quality of living, and sufficient supplies of new apartments. The population growth rate is a result of comparing the city's population in the beginning of this year with the same period last year. 
+~
+T_POP
+City Population 
+This shows the city's population changes over time. 
+~
+T_IMMIG
+Annual Immigrants 
+The number of immigrants to the city annually. 
+~
+T_EMIG
+Annual Emigrants 
+The number of people emigrated from the city annually. 
+~
+T_QLIVE
+Quality of living of the city.  
+People enjoy their lives better when they live in apartments with good access to community and sports facilities, a green environment and good shopping convenience, as well as a higher real wage rate.  
+~
+T_JOBOPE
+The number of job openings in the city 
+Generally, when there is a large number of job openings available in the city, the city can afford to accept immigrants at a faster pace. 
+~
+T_HOUSE
+Housing Supply and Demand Index 
+A positive value means that the housing supply is greater than the housing demand, and vice versa. 
+~
+T_OFFICE
+Office Space Supply and Demand Index 
+A positive value means that the office space supply is greater than the office space demand, and vice versa. 
+~
+E_GDP
+Gross Domestic Product (GDP) Growth
+GDP growth is affected by consumer spending, private investment, government spending and net exports. 
+~
+E_GDPPC
+Gross Domestic Product (GDP) per capita 
+This value indicates the approximate value of goods produced per person in the city. It equals to the total GDP divided by the total number of people in the city.
+~
+E_GDPTOT
+Total Gross Domestic Product (GDP) 
+The total GDP is the sum of the consumption, private investment, government spending and net exports. 
+~
+E_UNEMP
+Unemployment Rate 
+The unemployment rate trends lower when the GDP growth is healthy and private companies are expanding and creating new jobs. 
+~
+E_RWAGE
+Real Wage Rate  
+Real wages refers to wages that have been adjusted for inflation. A growing real wage rate means that people are earning more money, even after being adjusted for inflation. 
+~
+E_WAGE
+Wage Rate  
+A growing wage rate means that people are earning more money. 
+~
+E_INFLAT
+Inflation Rate 
+The inflation rate is affected by the unemployment rate (people spend less when they are unemployed) and the money demand and supply (higher money supply promotes spending). 
+~
+E_IRATE
+Loan Interest Rate
+The interest rate is set by the central bank. When the interest rate is high, the money supply is also tight. 
+~
+E_CPI
+Consumer Price Index (CPI)
+CPI tells the accmulated effects of inflation over years. It starts with a base value of 100 and increases during inflation times and decreases during deflation times.
+~
+NOWAIT1
+Cancel Waiting 
+You have used a layout plan for this firm and the computer is looking for a supplier based on the plan. Click here to cancel it and handle it manually. 
+~
+NOWAIT2
+Cancel Waiting
+You have used a layout plan for this firm and it is now waiting for required inputs to manufacture this product. Click here to cancel waiting and handle it manually. 
+~
+ISSUE1
+Issue New Shares 
+`
+~
+ISSUE0
+You cannot issue new shares to the public too frequently. 
+You may try again a few weeks later. 
+~
+WH_ONLY 
+Toggle whether the supplier list should only show warehouses. 
+`
+~
+BATCH_J 
+Batch Switching Supplier 
+Apply the same supplier change to other firms of yours. Go to Firm Report and select firms to apply the change. 
+~
+BATCH_F
+Batch Switching Supplier 
+Apply the same supplier change that you've just made to other firms of yours. Use Filters at the top of this screen to select firms to apply the change. 
+~
+RENTMODI
+Set your rent to a percentage above or below the current market price.
+`
+~
+RESGOAL
+Reset all goals.
+`
+~
+PLANSRC1
+Select the folder containing predefined layout plans.
+`
+~
+PLANSRC2
+Select the folder containing user-defined layout plans.
+`
+~
+PLANSRC3
+Select the folder containing wildcard layout plans.
+Wildcard layout plans are for factories only and can be used for producing any products with the same number of inputs. 
+~
+FIRMDES0
+This firm's description - click here to edit. (hotkey: Enter)
+`
+~
+FIRMDES1
+Click here to finish editing this firm's description. (hotkey: Enter)
+`
+~
+PLANDES0
+This layout plan's description - click here to edit.
+`
+~
+PLANDES1
+Click here to finish editing this layout plan's description.
+`
+~
+CHASORT1
+Sort by Challenge Game Title. 
+`
+~
+CHASORT2
+Sort by Contest Starting Date. 
+`
+~
+CHARANK1
+Launch a web browser and open the Public Challenge Game Rankings web page.
+`
+~
+CHARANK2
+Launch a web browser and open the Private Challenge Game Rankings web page.
+`
+~
+SPEEDNO
+Game Speed (disabled)
+Sorry, you cannot change the game speed of the current game as it is fixed by a game script. 
+~
+U_FUND
+Additional funding for the focused area.
+The funding will help improve the city's competitiveness in the focused area.
+~
+PRICE_PM
+Maximize profit margins by raising prices at the expense of market shares and capacity utilization rates.
+`
+~
+PRICE_MS
+Lower prices to gain market shares at the expense of profit margins.
+`
+~
+PRICE_BL
+Balance market shares and profit margins and set prices sensibly.
+`
+~
+FRECON_L
+When selecting a supplier, the freight cost is not a major factor to consider. 
+`
+~
+FRECON_H
+When selecting a supplier, the freight cost is a very important factor to consider. 
+`
+~
+MYSTAFF
+Limit the list to only show the executive staff in your company.
+`
+~
+MYGROUP 
+Limit the list to only show persons in your group.
+`
+~
+M_SHARE
+Retail market shares of this product 
+`
+~
+GETNUM
+Click here to type in an exact number (hotkey: '=')
+`
+~
+S_OWNED
+Toggle whether showing only companies in which you own shares.
+`
+~
+S_ANY
+Show any types of stocks. 
+`
+~
+S_INDEX
+Only show index stocks.
+`
+~
+S_TECH 
+Only show technology stocks. 
+`
+~
+S_ESTATE
+Only show real estate stocks. 
+`
+~
+S_MEDIA
+Only show media stocks. 
+`
+~
+S_INVEST
+Only show companies whose main business activities are investing into other companies.  
+`
+~
+S_CONSUM
+Only show companies that sell consumer products. 
+`
+~
+IS_PRIV
+This is a private company. 
+Click here to open the Corporation Detail Report
+~
+IS_PUBL
+This is a public company 
+Click here to access the stock market.
+~
+IS_SUBS
+This company is your corporation's subsidiary.
+`
+~
+IS_SHARE
+You own shares in this company directly or via holding companies.
+`
+~
+LOADMOD
+Use this MOD.
+`
+~
+RESETMOD
+Reset the MOD setting and use the default game resources. 
+`
+~
+MAYOR_MV
+Relocate this firm as part of your city planning. 
+Relocate this firm and compensate the owner for the difference in land prices if there is any. 
+~
+ZONE_ANY 
+Zoning Tool - Any Purposes 
+Use this tool to remove land-use restrictions on the selected land plots. 
+~
+ZONE_RES 
+Residential Zoning Tool  
+Use this tool to set selected land plots to residential zones.
+~
+ZONE_COM 
+Commercial Zoning Tool  
+Use this tool to set selected land plots to commercial zones.
+~
+ZONE_RC 
+Mixed Residential-Commercial Zoning Tool  
+Use this tool to set selected land plots to mixed residential-commercial zones.
+~
+ZONE_IND 
+Industrial Zoning Tool  
+Use this tool to set selected land plots to industrial zones.
+~
+ZONE_FAR
+Agricultural Zoning Tool  
+Use this tool to set selected land plots to agricultural zones. The land cost in agricultural zones are significantly lower than other zones. 
+~
+ZONE_NOT 
+Zoning Tool - Not For Sale
+Land plots marked by this tool will not be for sale. 
+~
+Z_SETALL
+Toggle the menu for applying a specific land purpose for the entire city.
+Select a land purpose and apply it to the entire city.
+~
+ZALL_ANY
+Apply All - Any Purposes 
+Remove land-use restrictions on any land plots owned by the government. 
+~
+ZALL_RES
+Apply All - Residential Zones 
+Set the entire city's land plots currently owned by the government to residential zones.
+~
+ZALL_COM
+Apply All - Commercial Zones
+Set the entire city's land plots currently owned by the government to commercial zones.
+~
+ZALL_RC
+Apply All - Mixed Residential-Commercial Zones
+Set the entire city's land plots currently owned by the government to mixed residential-commercial zones.
+~
+ZALL_IND
+Apply All - Mixed Industrial-Agricultural Zones
+Set the entire city's land plots currently owned by the government to mixed industrial-agricultural zones.
+~
+ZALL_NOT
+Apply All - Not For Sale
+All land plots owned by the government will not be for sale. 
+~
+OSUSPEND 
+Operation suspended
+The operation of this public facility is suspended due to lack of government funding. 
+~
+QOL_HOUS
+Housing and Community Facilities 
+This rating is determined by the city's Housing Supply and the average Overall Ratings of existing apartments.
+~
+QOL_JOBS
+Jobs and Income 
+This rating is determined by the city's Wage Level, the Unemployment Rate, and the Individual Income Tax Rate.
+~
+QOL_EDU
+Education
+This rating is determined by the Overall Satisfaction ratings of Schools and Universities in the city (details can be viewed on the "Public Facilities" page) and the Education Levels of the citizens (info can be viewed on the detail window of a school or a university.)
+~
+QOL_HEAL
+Health 
+This rating is determined by the Overall Satisfaction ratings of Hospitals in the city (details can be viewed on the "Public Facilities" page).
+~
+QOL_SOCI
+Social Security 
+This rating is determined by the average pay rate of Unemployment Benefits as a percentage of the reference salary in the past 3 years. 
+~
+QOL_SAFE
+Safety 
+This rating is determined by the Overall Satisfaction ratings of Police Stations and Fire Stations in the city (details can be viewed on the "Public Facilities" page).
+~
+QOL_FOOD
+Food availability at retail 
+The variety and supply of food available at retail. 
+~
+QOL_PROD
+Products availability at retail 
+The variety and supply of consumer products available at retail. 
+~
+QOL_ENV
+Environment 
+This rating is determined by the Pollution level of the city. (Select Pollution mode on the mini map to see the city's population level.)
+~
+QOL_SPOR
+Sports  
+This rating is determined by the Overall Satisfaction ratings of Sports Facilities in the city (details can be viewed on the "Public Facilities" page).
+~
+QOL_CULT
+Culture 
+This rating is determined by the Overall Satisfaction ratings of Library, Museums, and City Halls in the city (details can be viewed on the "Public Facilities" page).
+~
+P_OPERAT
+When this civic building is not in full operation, its operating cost is lower. 
+You are advised to set this based on the Supply/Demand index displayed at the lower part of this info window. (If the demand is high, set the operational capacity to a higher value.)
+~
+P_TRAIN
+Use the slider to set the staff training budget for this civic building. 
+`
+~
+P_TRAIN0
+The staff training budget for this civic building. 
+`
+~
+P_FACIUP
+Use the slider to set the budget for upgrading the facilities of this civic building. 
+`
+~
+P_FACIU0
+The budget for upgrading the facilities of this civic building. 
+`
+~
+P_SKILL
+Staff skill level 
+The staff's skill level is determined by 1) the education level of people in this city and 2) the staff training budget for this civic building. 
+~
+P_FACILI
+Facilities Quality 
+A larger Facilities Upgrade Budget leads to higher quality of the facilities.
+~
+P_QUALIT
+Quality of service 
+The quality of service provided by this civic building is determined by 1) its staff's skill and 2) its facilities' quality.
+~
+P_DEMAND
+Demand/supply index for services provided by this civic building 
+This index tells you whether you have enough civic buildings in the city to meet the citizens' demands for the services. A value of less than 100 means that it cannot keep up with the current demand and you should build more buildings of this type. 
+~
+P_COVERP
+Geographical coverage of police 
+A high value means that different regions of the city have good police coverage. Conversely, a low value indicates some regions of the city do not have adequate police coverage. 
+~
+P_COVERF
+Geographical coverage of fire services 
+A high value means that different regions of the city have good coverage of fire services. Conversely, a low value indicates some regions of the city do not have adequate fire services coverage. 
+~
+P_CONVEN
+Location convenience
+A high value means that people living in different regions of the city is well served. Conversely, a low value indicates that people in some regions of the city do not have good access to the services. 
+~
+P_OVERAL
+Citizens' overall satisfaction of the services
+This is a product of the above three values and it ultimately tells whether the mayor is doing a good job providing services of this kind to the citizens. 
+~
+PO_IMMIG
+Annual limit on immigrants
+When a city does not have sufficient job opportunities for new immigrants, or its public facilities cannot keep up with the demand by its growing population, the city is likely to tighten its immigration policy.
+~
+PO_S_TAX
+Consumer Tax Rate
+Consumer taxes are charged whenever consumers spending money on goods. (Tax = Product Price X Consumer Tax Rate). When a city's consumer tax rate is too high, consumer spending will decline. Weak consumer spending will in turn adversely affect the business sector.
+~
+PO_I_TAX
+Individual Income Tax Rate
+When a city's individual income tax rate is too high, it will have a negative effect on consumer spending. In addition, the "Jobs and Income" category of the Quality of Life index will suffer a drop as well. 
+~
+PO_P_TAX
+Corporate Profit Tax Rate
+A high corporate profit tax rate brings in greater tax revenue for the city whereas a low corporate profit tax attracts business investment. 
+~
+PO_UNEMP
+Unemployment Benefits Pay Rate 
+The pay rate of unemployment benefits as a percentage of the reference salary. 
+~
+PO_AUTOM
+Auto Manage Media Firms
+When this is enabled, the computer will automatically manage all of the city's existing media firms for you. 
+~
+PO_AUTOA
+Auto Manage Apartments 
+When this is enabled, the computer will automatically manage all of the city's existing apartments for you. It will set the apartments' rents based on your preference which you may customize with the "Rent" setting below. 
+~
+PO_AUTOC
+Auto Manage Commercial Buildings 
+When this is enabled, the computer will automatically manage all of the city's existing commercial buildings for you. It will set the commercial buildings' rents based on your preference which you may customize with the "Rent" setting below. 
+~
+EMIGRATI
+People emigrating from the city. 
+The low value of this aspect of quality of life has caused some people to emigrating from this city to other cities.
+~
+MAPPUBLIC
+Mini Map - Public Service mode 
+The mini map currently shows the geographical coverage of this type of civic building. Click here to select another type of civic building. 
+~
+MAPPUBNIL
+Mini Map - Public Service mode 
+Click here to select a type of civic building for the mini map to display the geographical coverage of its services.  
+~
+MODE_GOV
+Government Mode (hotkey: Tab)
+Switch to the Government Mode to give orders on behalf of the government. 
+~
+MODE_BUS
+Business Mode  (hotkey: Tab)
+Switch to the Business Mode to give orders on behalf of the corporation. 
+~
+APPROVAL
+Mayor Approval Rating 
+The current city's mayor approval rating. For more details, see the Cities page on the Information Center. Click here to open the Mayor report. 
+~
+GOALACHI
+Goal Achievement Progress 
+It indicates your progress in achieving the goals. Click here to open the Goal report. (hotkey: G)
+~
+ECO_MAX
+Show the Economic Info window 
+`
+~
+ECO_MIN 
+Hide the Economic Info window 
+`
+~
+ECO2_MAX
+Extend the Economic Info window to display additional info. 
+`
+~
+ECO2_MIN 
+Hide the extended section of the Economic Info window.  
+`
+~
+PS_FIND 
+To search a product, simply type the first letter of the product's name. 
+`
+~
+PS_CITY 
+Select the city where the suppliers are located. 
+`
+~
+PS_SUPP
+Hotkeys: Use F1, F2 and F3 to select All suppliers, Seaports and your own firms respectively. 
+`
+~
+PS_PROD
+Press [Enter] any time to open the product filter list. 
+To locate the product you want, type the first letter of the product name
+~
+CONFIRMP
+Confirm the price change (hotkey: '*' or ']')
+`
+~
+PLAN_PS
+Use the Space key to show or hide this drop down list of product filters. 
+Red text denotes that layout plans or inputs are not available for the product. 
+~
+PLANPREV
+Hotkey: Left arrow key to go to the previous layout plan. 
+`
+~
+PLANNEXT
+Hotkey: Right arrow key to go to the next layout plan. 
+`
+~
+G_MINE 
+Build a mine for extracting minerals. 
+`
+~
+G_OIL
+Build an oil well for extracting oil. 
+`
+~
+G_FOREST
+Build a logging camp for processing logs into timber. 
+`
+~
+G_BCITY0
+Build a new city (size: 200x200) (disabled)
+To build a new city, first select an empty region on the map that has sufficient land mass. 
+~
+G_BCITY1
+Build a new city (size: 200x200). 
+`
+~
+STK_PRIC
+The current stock price.
+`
+~
+STK_TQTY 
+The total number of shares currently held by all its shareholders. 
+`
+~
+STK_CAP
+The market capitalization of a company.
+It equals to its share price times the total number of shares outstanding. In other words, it is the total market value of the company in the stock market. 
+~
+STK_EARN
+Earning Per Share 
+The Earning Per Share is a company's operating profit over the past 365 days divided by the total number of outstanding shares. When a company issues new shares, the Earning Per Share will be diluted as the company's profit will be divided by a larger number of shares. 
+~
+STK_EQUI
+Equity Per Share 
+It is the company's Shareholder Equity (which you can view in the Balance Sheet) divided by the total number of outstanding shares.
+~
+STK_PE
+The P/E Ratio or the Price-Earnings Ratio 
+It is an equity valuation multiple, defined as the stock price divided by Earnings Per Share. A high P/E ratio generally means the the stock is expensive as people are buying high prices to buy the stock, possibly driven by investors' confidence in the company's growth prospect. 
+~
+STK_PB
+The P/B Ratio or the Price-to-Book Ratio
+It is calculated by dividing the current stock price by the Equity Per Share. A P/B ratio that is lower than 1.0 means that the stock is currently trading at a price lower than the stock's net worth 
+~
+STK_DIVI
+Dividend Yield 
+This is a percentage calculated by dividing the latest dividend paid by the stock price. The greater the dividend yield, the more cash is returned to each investor when the dividend is paid out each year.
+~
+STK_RETA
+Total Shareholder Return (Annual)
+This percentage is calculated by dividing the total return to investors (which is the sum of dividends paid and capital gains from stock price increases in the past 365 days), by the stock price.
+~
+STK_RETL
+Total Shareholder Return (Lifetime)
+This percentage is calculated by dividing the total return to investors (which is the sum of all dividends paid and lifetime capital gains from stock price increases), by the stock price.
+~
+PLANALL
+Show all layout plans (F1) 
+`
+~
+PLANINPU
+Only show layout plans with all inputs available (F2) 
+`
+~
+MOD_DISP
+Toggle display mode 
+Toggle between Banner display mode and Info display mode. (In Banner display mode, if a MOD does not have a banner, its information will be display instead.)
+~
+MOD_DL
+Download MODs
+Access the Capitalism Lab MOD forum to download user-created MODs.
+~
+DIVPAYO
+Dividend Payout Ratio 
+It is the percentage of earnings paid to shareholders in dividends. (Dividend Payout Ratio is calculated based on earnings per share, whereas Dividend Yield is calculated based on the stock price.) 
+~
+DIVYIELD
+Actual Dividend Yield 
+This is a percentage calculated by dividing the latest dividend paid by the stock price. The greater the dividend yield, the more cash is returned to each investor when the dividend is paid out each year.
+~
+REDIRECT 
+Redirect Supply Links 
+If any of your other firms have broken supply links which requires the same item that this Sales unit is selling, you may use this button to redirect the supply link to the current Sales unit. 
+For instance, your mine's reserve has exhausted, and you have just built a new mine, then you may use this button to redirect supply links to the new mine. 
+~
+CUSTMOD
+Using the MOD folder 
+Currently a MOD is in use. Product custom images will be accessed from the "MOD\<mod name>\Products" folder instead of the "My Games\Capitalism Lab\Products" folder.
+~
+CUSTOPEN
+Open the file folder where custom product images are stored. 
+To add new custom product images into the game, save PNG image files (120x120 pixels) into the folder."
+~
+RDDESIGN
+Open the interface for adding custom design product images into the game. 
+`
+~
+CUSTSORT
+Sort the custom product images by their required tech levels. 
+`
+~
+CUSTUSE1 
+Add the selected custom product design into your library.   
+You can then use the product design in your manufacturing units in your factories. 
+~
+CUSTUSE0 
+Cannot add it. 
+You have already added the selected custom product design into your library.   
+~
+CUSTUSE2 
+Cannot add this product design 
+Because you have already reached the maximum number of product designs you can add to your library. To increase the limit, first increase the tech level of the prodcut. 
+~
+CUSTEXIT 
+Exit this window (hotkey: ESC)
+`
+~
+CUSTTECH 
+Product Customization 
+You can associate custom images to your products and assign a technology level to each custom product image. When your tech level has reached the assigned level, the custom image will be displayed. e.g. You have defined a custom image of Smart Phone with a tech level of 300. When your Smart Phone tech has reached 300, this custom image will be displayed. 
+~
+CUSTHIGH
+Added product design 
+The green background indicates that this product design has already been added to your library. 
+~
+CITY_C
+The city's Competitiveness Rating of the industry. 
+The higher the city's competitiveness rating, the larger number of people are employed in the local industry. When the city's competitiveness is weak, it will have to import large volumes of goods, hurting employment in the manufacturing sector. 
+~
+GLOBAL_C
+The Global Competitiveness Rating of the industry. 
+When the city's competitiveness rating exceeds the global competitiveness rating, the city will be in a position to export its products to the worldwide market. 
+~
+EXPORT
+The city's volume of export of the industry. 
+There will be export when the city's competitiveness rating exceeds the global competitiveness rating. Strong export will improve the city's employment significantly. 
+~
+MFTSHOW
+Show disabled product classes or not. 
+Click here to toggle whether disabled product classes should be shown on this list. 
+~
+I_PARTY
+Hotkey: '!'
+`
+~
+MFT_CUST
+Product Customization (hotkey: 'z')
+Click to open the Product Customization Editor to define custom images for the current product type. A tick sign indicates that there are custom images defined for the product type. 
+~
+INSALE_GR
+Group Supersedes Internal Sale 
+If this is enabled, any firms in your company and subsidiaries will always be able to buy products from each other, regardless of the [Internal Sale] setting.
+~
+JMFTCUST
+Customize the production technology level for this manufacturning unit. 
+If you want, you may revert its production technology to a lower level and associate it with a different custom product image. 
+~
+CUSTRESE
+Reset the custom design.
+Revert it back to its original product image. 
+~
+CUSTTEC2
+Customize the production technology level. 
+You may revert its production technology to a lower level and associate it with a different custom product image. The tech level is displayed below each product image.
+~
+CUSTCHG
+Change the production tech 
+Change the production technology of the current manufacturing unit to the selected level. This will associate the product with the selected image. 
+~
+CUSTCHGA
+Change the production tech of the entire firm 
+Change the production technologies of all manufacturing units in the current firm to the selected level. This will associate the product with the selected image. 
+~
+FIRM_OPT
+Relocate, Demolish or Transfer this firm (hotkey: Ctrl-X)
+You may relocate this firm in the same city, or demolish it. Alternatively, you may also transfer it to another company under your control.  
+~
+APAR_OPT
+Transfer or Demolish this apartment
+You may transfer this apartment to another company under your control, or demolish it.  
+~
+COMM_OPT
+Transfer or Demolish this commercial building
+You may transfer this commercial building to another company under your control, or demolish it.  
+~
+BACK_INT
+Backward Integration 
+This determines whether the CEO may build factories, farms and natural resource firms to supply raw materials and semi products to existing factories that need them. The higher the slider's value, the higher the tendency to set up firms for backward integration. 
+~
+CITEMNAM 
+Click here to name the current custom product image. 
+`
+~
+ICRTECH1
+Required tech level for this custom product image
+You can associate custom images to your products and assign a technology level to each custom product image. e.g. You have defined a custom image of Smart Phone with a tech level of 300. When your Smart Phone tech has reached 300, this custom image will be displayed. Use the [+][-] buttons to set the tech level for this custom image. 
+~
+ICRTECH2
+Required tech level for this custom product image
+When your tech level has reached this level, the current custom image will be displayed. e.g. You have defined a custom image of Smart Phone with a tech level of 300. When your Smart Phone tech has reached 300, this custom image will be displayed. 
+~
+CEOPrice
+CEO Pricing Policy 
+Set the checkbox to use a specific pricing policy for this individual product. Clear the checkbox to use the general pricing policy set on the CEO Management Policies page (under the Persons report.) 
+~
+COOPrice
+COO Pricing Policy 
+Set the checkbox to use a specific pricing policy for this individual product. Clear the checkbox to use the general pricing policy set on the COO Management Policies page (under the Persons report.) 
+~
+SHOWLAUN
+Toggle Product Launch News Popup 
+Enable or disable the option of popping up news windows about custom product launches. 
+~
+CEOISSUE
+CEO Policy on Issuing New Shares
+If this is turned off, the CEO will never issue new shares for expanding the business. But if the company is out of cash, the CEO will have to issue new shares to raise funds for the company's survival regardless of this setting.  
+~
+E_PPOWER
+Purchasing Power
+Purchasing power is the amount of goods or services that one can buy with a unit of currency. Inflation erodes purchasing power.
+~
+E_CONSUM
+GDP - Consumption
+GDP is the sum of consumption, investment, government spending and net exports. Consumption is the value of goods and services bought by people.
+~
+E_INVEST
+GDP - Investment 
+GDP is the sum of consumption, investment, government spending and net exports. Investment is the total investment by businesses.
+~
+E_GOVSP
+GDP - Government Spending
+GDP is the sum of consumption, investment, government spending and net exports. Government Spending is the total spending by government. 
+~
+E_NETEXP
+GDP - Net Exports 
+GDP is the sum of consumption, investment, government spending and net exports. Net Exports equal to exports less imports. 
+~
+E_EXPORT
+Total Exports
+The total value of exports. It is used for calculating the Net Exports component of GDP. 
+~
+E_IMPORT
+Total Imports 
+The total value of imports. It is used for calculating the Net Exports component of GDP. 
+~
+G_CASH
+City fund  
+The amount of cash currently in the city fund. 
+~
+G_SURPLU
+Surplus 
+The amount of surplus that the current city has registered over the past 12 months. 
+~
+G_DEFICI
+Deficit 
+The amount of deficit that the current city has registered over the past 12 months. 
+~
+PUBFINAN
+Financial report (hotkey: F6)
+Toggle the display of the financial report for this public facility.
+~
+LOWSUPTO
+Low Supply Tolerance Level 
+If the value is set to low, the AI has lower tolerance of low supply and have greater tendency to look for new supply.
+~
+SHOWSUPP
+Show the current supplier (hotkey: W or U)
+`
+~
+TARBRAND 
+Target brand rating
+The higher the slider's value, the higher the brand rating the CMO will target to achieve by advertising. 
+~
+MMAPBRZ
+Land-use Plan and Business Relationship.
+Switch to this mode to show the Land-use Plan and the Business Relationship Mode - with a firm selected this mode will display linkage lines to firms in direct business with the selected firm.
+~
+LANDPRIC
+Land Price Index 
+This index determines the prices that the government sells its land and natural resource sites to corporations. 
+~
+MFACTORY
+Set up your factory to manufacture this product.
+`
+~
+DEVCITY
+Whether there is a developed city at the beginning or not. The game is more challenging if you have to start from scratch without a developed city.  
+`
+~
+I_SOFT
+Hotkey: F3
+`
+~
+I_DIGIT
+Hotkey: Ctrl-D
+`
+~
+I_SGUIDE
+Hotkey: Ctrl-F
+`
+~
+SC_INFLUE
+Score component: Current Political Influence 
+For each city where you or a member of your political party is the mayor, the city's population, GDP per capita and the mayor's approval rating will determine the political influence. If you are the party's leader, each of your members' influence value will contribute 50% to yours.  
+~
+SP_INFLUE
+Score component: Past Political Influence 
+Its calculation is similar to the Current Political Influence. It is the accumulation of of all past political influence values x 50%. 
+~
+N_PGROW
+Population Growth 
+A nation's population growth is supported by a low employment rate, high quality of living, and sufficient supplies of new apartments. The population growth rate is a result of comparing the city's population in the beginning of this year with the same period last year. 
+~
+N_POP
+Population 
+This shows the nation's population changes over time. 
+~
+SURVIVAL
+Survival Mode
+Enable the survival mode if you like the challenge of building a nation from the ground up. When the Survival Mode is enabled, the options available on the New Game Settings menu will be different to reflect the new gameplay mechanism.     
+~
+Floor1
+Select the 1st floor 
+You may use PageUp and PageDown keys to switch between floors. 
+~
+Floor2
+Select the 2nd floor
+You may use PageUp and PageDown keys to switch between floors. 
+~
+Floor3
+Select the 3rd floor
+You may use PageUp and PageDown keys to switch between floors. 
+~
+NewFloor
+Set up a new floor 
+`
+~
+PUB_MOVE
+Relocate this building.
+`
+~
+PUB_DEL
+Demolish this building.
+`
+~
+MFTSUPP0
+Supply of this item is unavailable in the market.
+`
+~
+MFTSUPP1
+Supply of this item is available in the market.
+`
+~
+MFTFACT
+Use the Manufacturer's Guide to set up Factory Production. 
+Click here to access the special version of Manufacturer's Guide and use it to set up your factory's production layout instantly.
+~
+POTENTIA
+Potential
+The speed at which an employee's skill increases is affected by the employee's potential and the firm's training budget.
+~
+MMAPMMV2
+Land Value Mode
+Click to toggle Land Value Mode - darker colors indicate high land values.
+The red dot indicates the CBD (central business district).
+~
+PO_ACIV
+Auto Adjust Operation Levels of Civic Buildings 
+When this is enabled, the computer will automatically adjust the operation levels of all of the city's civic facilities for you. It will set the operation levels based on the demands of the civic facilities.
+~
+S_RETECH
+Required Tech Achieved?
+Each type of software depends on certain tech. Your company must possess the minimum tech level required for each tech in order to create the software product. To see the details, open the Software Guide in the Information Center. 
+~
+IPLIMIT
+IP Creation 
+In the game, each player is given an ability to create one IP from scratch. You have already created an IP and therefore cannot create any further IPs. 
+~
+OM_RD_A
+Disable R&D completion notifications
+Click to disable notifications about completions of R&D projects in the Event Tracker. 
+~
+OM_RD_B
+Enable R&D completion notifications
+Click to enable notifications about completions of R&D projects in the Event Tracker. 
+~
+F_SUPPLY
+Look for better supplies
+This determines whether the AI executive should look for better supplies in retail stores, factories and warehouses. The AI will NOT change the product type when it sources new supplies. 
+~
+F_RETAIL 
+Look for better products to sell in retail stores
+This determines whether the AI executive should look for better products to sell in retail stores only. The AI may change the product types at will. 
+~
+NEWSOFT
+New software product
+Start a project for developing a new software product with a new product name. 
+~
+NEWVER
+New version
+Start a project for developing a new version of the software product that was previously completed here. 
+~
+PRICEAGR
+You have a price agreement with the supplier of this product. 
+When you sell a product that is sourced from an external supplier, if the supplier is also selling the same product in its own retail store, you will have to agree to the retail price set by the supplier. This is to prevent you from undercutting the supplier in the market. (Click here now to view the supplier.) 
+~
+LOYALTY
+Empolyee loyalty 
+You can increase employee loyalty in the following ways: 1) give salary raises 2) set a higher training budget. An employee with a loyalty level of 80 or higher will not be headhunted by competitors.  
+~
+IF_ADDS
+Set up this factory for producing software products. 
+`
+~
+AUTOSOFT
+Automatically develop new versions 
+If this is enabled, it will automatically develop next versions of the software when more advanced tech has been researched. 
+~
+HIREALL
+Hire all 
+Hire team leads for all functional units connected with the current one, choosing job candidates whose requested salaries are similar to the one's you hired. 
+~
+PRIVONLY 
+Show only private companies
+Click here to toggle this filter on and off. 
+~
+G_BSCIT0
+Build a new city (size: 100X100) (disabled)
+To build a new city, first select an empty region on the map that has sufficient land mass. 
+~
+G_BSCIT1
+Build a new city (size: 100x100). 
+`
+~
+G_BCMAX
+Build a new city (disabled)
+The maximum number of cities allowed in a game has been reached. You cannot build any more new ones. 
+~
+G_BCMAXS
+Build a new city (disabled)
+You can build a maximum of 15 cities. The maximum number of cities allowed in a game has been reached. You cannot build any more new ones. 
+~
+EC_ON
+Enable eCommerce Sales 
+When you enable eCommerce sales for this firm, your eCommerce  sites will add all consumer products from this firm to its catalog. 
+~
+EC_MARK
+eCommerce Price Markup 
+Set the price markup for selling products from this firm on your eCommerce sites. (This applies to all products in this firm.)
+~
+EC_PCT
+E-Commerce Sales  
+The percentage of sales of products in this firm that are contributed by e-commerce. Note that if the output from this factory fails to meet the demands from its business clients, there will be no stock available for e-commerce sales. 
+~
+AD_CPM
+Current Advertising Pricing
+The advertising pricing is measured in the cost per thousand impressions.
+~
+REACH
+Reach %
+The percentage of Internet users in all cities that visits this web.
+~ 
+GOSOFTFM
+Go to the software company that develops this software.
+`
+~
+ADV_LINK
+Replace this link with a new link to another media. 
+`
+~
+ADV_GO
+Go to this media
+`
+~
+ADV_DEL
+Delete this media link. 
+`
+~
+ADV_NEW
+Link to a media firm  
+Run advertising for the current web site on another media firm to boost up the current web site's visitor traffic.
+~
+SLOTIIMG
+Toogle Display (Hotkey: Ctrl-A)
+Toggle the display of product images on the 3x3 layout area. 
+~
+PS_FIND2
+Search for suppliers by entering any of the following:
+Product types, product classes, company names, firm names, firm descriptions, and city names. Example: enter "Computer Watch London" to search for computers and watches from suppliers in London. (Inexact search is supported.)
+~
+ECOMM_GO
+Go to your e-commerce company.
+`
+~
+HIREONE
+Hire
+Hire a team lead for the current functional unit.
+~
+HEADHUNT 
+Headhunt
+To headhunt a person, you must offer a higher salary and a signup bonus. (The more loyal the person is to his/her current employer, the higher the salary you must offer.)
+~
+EMPTRANS
+Transfer
+Transfer this employee from another company under your group to the current firm.
+~
+HEADSUBS
+Headhunt Targets Include Subsidiaries
+If this is enabled, the list of headhunt targets will include employees from your subsidiary companies. 
+~
+WTFILTER
+Internet Company Filter
+Click here to set the Corporation filter to "All" and the Firm Type filter to "Internet Company". Use the below list to limit the firm list to a specific type of Internet company. 
+~
+INET_PR
+Current Internet Pricing 
+This is the monthly subscription fee that the company charges customers for the Internet services provided. 
+~
+INET_PRX
+Next Month Internet Pricing 
+Set a new Internet monthly subscription fee that will become effective next month. 
+~
+OSRATING
+Apps Availability 
+This indicates whether there are enough application software available for this OS. This rating is calculated based on the variety of the software applications available for this OS and their quality ratings. It contributes to the OS's overall rating. 
+~
+ESPMODE
+Choose a mode for setting e-commerce prices. 
+You may set e-commerce prices individually or set a price markup percentage that applies to all products in this firm. Click this button to toggle the mode. 
+~
+RAISESAL
+Raise the salary of this team lead. 
+Note that the salary displayed here is the annual salary.
+~
+RAISEALL
+Raise the salaries of all team leads in this firm.
+Note that the salary displayed here is the annual salary.
+~
+D_PC
+Personal Computer Users
+It shows the number of personal computer users in this city.
+~
+D_PCI
+Personal Computer Users
+It shows the number of personal computer users who have access to the Internet in this city.
+~
+HIDEINAC
+Hide Inactive Software Products 
+Do not show software products that have no sales in the past 36 months.
+~
+INF_BD
+Click to set the monthly budget for upgrading infrastructure.  
+The maximum number of subscribers that your telecom can serve is limited by its infrastructure capacity. Set a budget here for upgrading its infrastructure capacity if most of its capacity has already been utilized. 
+~
+LOCAL 
+Local Competitors 
+There are local competitors in each city. Although their firms are not shown in the game map, they compete directly with the corporations. The white portion of the pie charts represents the combined market share of all local competitors in the city. Their product ratings are shown here. 
+~
+CONCERNS
+Consumer Concerns 
+When a consumer buys a product, the product's price, quality, and brand are considered. However, the relative concern consumers place on these factors varies from product to product. A higher value means that consumers are more concerned about that aspect when making a purchase decision. 
+~
+MFT_INPU
+Input
+It indicates the quantity of the input required for the production and how much it contributes to the finished product's quality. 
+~
+BRAND_ST
+Switch Brand Strategy
+You can switch your corporation's brand strategy here by clicking one of the below brand strategies. 
+~
+D_MOBIL
+Mobile Users
+It shows the number of mobile users in this city.
+~
+IPONLY 
+IP Required for Production
+If this option is enabled, then companies can only produce products in this product category if they own the IP or have access to the IP. 
+~
+CITYTOT
+Total sales in this city
+The sale data include both retail and ecommerce sales.
+~
+ANALYSIS
+Toogle Analysis Mode (Hotkey: X)
+Toggle between the Analysis Mode and the standard 3x3 layout mode. 
+~
+FA_LEVEL
+Overall Experience Level of the Factory 
+This is determined by the experience levels of all individual units in your factory. 
+~
+FA_UTIL
+Overall Capacity Utilization Rate of the Factory 
+A high utilization rate means that your factory is operating efficiently. A low rate means that your factory has idle time and its capacity is underutilized. 
+~
+FA_STOCK
+Stock in the Factory 
+The stock level of the finished product in the factory.  
+~
+FA_INPUT
+Quality of Input Items  
+The part of the finished product's quality that is contributed by its input items' quality. 
+~
+FA_TECH 
+Production Technology 
+The part of the finished product's quality that is contributed by the production technology. 
+~
+FA_OUTPU
+The quality of the finished product.
+`
+~
+I_BOND
+Hotkey: Ctrl-B
+`
+~
+SHOWSUPL
+Show the current supplier.
+`
+~
+IP_OS0
+Operating System for your IP 
+Before you can start to manufacture hardware using this IP, you must first develop an Operating System for the IP. To develop an OS, set up a Software Company.
+~
+IP_OS1
+Operating System for your IP 
+You have already developed an Operating System for your IP, now you may set up factories to manufacture the hardware using the IP.
+~
+ECOMMVAR
+Products Quality and Variety
+This is a rating ranging from 0 to 100 indicating the quality and variety of products available on this e-commerce site. Together with the e-commerce site quality rating, they affect the amount of visitors to this site. 
+~
+NEWGAME
+New Game Project 
+Start a project for developing a new game product. 
+~
+MFTIMOD1
+Switch information display mode 
+`
+~
+MFTIMOD2
+Switch information display mode 
+For Smart Phone, Quality Rating is determined by 1) Raw Material Quality 2) Technology/Production Quality 3) OS Software Quality.
+~
+BANKSKIL
+Staff Skill Level 
+The staff's skill level affects the quality of service of this bank branch. You may set the training budget to provide training to the staff to increase their skills. 
+~
+BANKWAIT
+Customer Waiting Time 
+A long customer waiting time negatively affects the service quality of your branch. You may open new branches to alleviate it. 
+~
+BANKSERV
+Quality of Service
+The quality of service of this bank branch is determined by the Staff Skill Level (50%) and the Customer Waiting Time (50%). Higher quality of service will attract more customers. 
+~
+BANKBRAN
+Bank Brand Rating 
+The brand rating of the bank in this city. To increase it, select the "Marketing" tab and set up advertising. 
+~
+LOAN_DEF
+The amount of loan defaults in the past 12 months.
+`
+~
+BANKFINA
+Financial Statements 
+View the financial statements of this corporate group, in addition to those of this bank.
+~
+BTRAFFIC 
+Customer Traffic index of this area
+The higher the customer traffic index, the larger the number of potential customers will visit this bank branch. 
+~
+BKHQTRAI
+Average Training Budget 
+The average training budget of all your branches. If you change the training budget here, the change will apply to all branches of your bank. 
+~
+BKHQSKIL
+Average Staff Skill Level 
+The average staff skill level of all your branches. It affects the overall service quality of your bank. 
+~
+BKHQWAIT
+Average Customer Waiting Time 
+The average customer waiting time of all your branches. It affects the overall service quality of your bank. 
+~
+BKHQSERV
+Quality of Service
+The average service qualty of all your branches. It is determined by the Staff Skill Level (50%) and the Customer Waiting Time (50%). Higher quality of service will attract more customers. 
+~
+BANKBRAN
+Bank Brand Rating 
+The brand rating of the bank in this city. To increase it, select the "Marketing" tab and set up advertising. 
+~
+LOANALL
+All Loans
+Select this to show all loans that have been made to local companies and corporations. The loans are groupped under different credit ratings and the total amount of each group is shown.  
+~
+LOANGRP
+Loans to Corporations
+Select this to show a list of loans that have been made to corporations. Note that these loans, together with loans to local companies, constitute the loan totals shown on the [All Loans] page. 
+~
+DEFALL
+All Defaults
+Select this to show all bad loans that have been defaulted. 
+~
+DEFGRP
+Defaults by Corporations
+Select this to show a list of loans made to corporations that have been defaulted. Note that these loan defaults, together with those by local companies, constitute the loan defaults shown on the [All Defaults] page. 
+~
+DEPOBRAN
+Deposits from all branches of this bank 
+Select this to show all customer deposits made via all the branches of this bank.
+~
+DEPOHQ
+Deposits from the headquarters 
+Select this to show a list of deposits made by corporations and persons via the bank headquarters.  
+~
+INSUFINA
+Financial Statements 
+View the financial statements of this corporate group, in addition to those of this insurance company.
+~
+ITRAFFIC 
+Customer Traffic index of this area
+The higher the customer traffic index, the larger the number of potential customers will visit this insurance front office. 
+~
+INHQTRAI
+Average Training Budget 
+The average training budget of all your insurance front offices. If you change the training budget here, the change will apply to all the front offices. 
+~
+INHQSKIL
+Average Staff Skill Level 
+The average staff skill level of all your insurance front offices. It affects the overall service quality of your insurance company. 
+~
+INHQWAIT
+Average Customer Waiting Time 
+The average customer waiting time of all your insurance front offices. It affects the overall service quality of your insurace company. 
+~
+INHQSERV
+Quality of Service
+The average service qualty of all your insurance front offices. It is determined by the Staff Skill Level (50%) and the Customer Waiting Time (50%). Higher quality of service will attract more customers. 
+~
+INBRAND
+Insurance Brand Rating 
+The brand rating of the insurance company in this city. To increase it, select the "Marketing" tab and set up advertising. 
+~
+INPRICE
+Premium Price Level
+The price level of your insurance premiums. It ranges from 10 to 200; 100 is normal. A lower price level makes your insurance products more competitive but it also increases the ratio of claims to received premiums, resulting in a lower profit margin. 
+~
+INAVGPRI
+Average Premium  
+The average amount of insurance premium this company has received per customer annually. 
+~
+INFINPER
+Financial Performance
+The financial performance of this insurance company in the past 12 months. 
+~
+INPREMIU
+Total Premiums
+Total premiums received in this past 12 months. 
+~
+INCLAIM
+Claims
+Total claims paid to customers in the past 12 months. 
+~
+OM_WSAD
+WSAD Keys
+You may assign the 'W', 'S', 'A' and 'D' keys as context sensitive shortcut keys or use them for scrolling the city map. 
+~
+B_ANY
+Show any types of bonds. 
+`
+~
+B_GROUP
+Only show corporate bonds.
+`
+~
+B_TOWN 
+Only show municipal bonds. 
+`
+~
+B_OWNED
+Toggle whether showing only bonds that you own. 
+`
+~
+MFT_SOFT
+Set this manufacturing unit to produce software products. 
+`
+~
+MMFILBLD
+Show filtered firms only
+If enabled, only firms that match the filter criteria will be shown on the city view; other buildings will be hidden. 
+~
+U_FUND2
+Additional funding for the focused area.
+The funding will increase the city's competitiveness in the focused area and improve the skills and supply of talents specializing in the focused area. 
+~
+I_CDET2
+Hotkey: Ctrl-D
+`
+~
+AINPCOST
+Cost of the Input 
+Note that this cost price may be different from the cost price shown at the Purchasing Unit, as it takes into account the quantity of the input required for the production. In other words: <this cost price> = <cost price at the Purchasing Unit> X <Quantity of the Input> / <Quantity of the Finished Product> shown on the Manufacturer Guide.
+~
+NECEINDX
+Necessity Index
+A high index value indicates that the product is necessary to people in their daily lives. The demand for necessary goods is fairly constant, because people must buy them even if the price they are offered is not attractive.
+~
+DEPOSBRA
+Client Deposits
+The figure shows the total client deposits and the year-over-year growth rate. The graph shows the deposits over the past 36 months. 
+~
+DEPOSHQ
+Client Deposits from All Branches of This Bank 
+The figure shows the total client deposits from all branches of this bank and the year-over-year growth rate. The graph shows the deposits over the past 36 months. 
+~
+ADVERT
+Advertisement 
+Click here to view the advertisement setting. 
+~
+RINCCAP1
+Increase the Retail Capacity 
+Allocate retail space and hire staff for selling the same product. 
+~
+RINCCAP0
+Cannot Increase the Retail Capacity 
+Sorry, you cannot expand its capacity further as there is no space left in the retail store. 
+~
+RDECCAP1
+Reduce the Retail Capacity 
+Shrink the retail space and reduce the staff size for selling this product. 
+~
+RDECCAP0
+Cannot Reduce the Retail Capacity 
+Sorry, you cannot reduce its capacity further as it is already at the minimum capacity.  
+~
+RREMOVE 
+Remove the Product 
+Remove this product from the retail store. 
+~
+RSUPPLY
+This product is sourced from multiple suppliers. 
+Use these buttons to select which supplier's information to be displayed.  
+~
+FARMSET1
+Set up a new production at the current farm. 
+`
+~
+FARMSET0
+The farm does not have sufficient space for setting up a new production. 
+`
+~
+STKSPLIT
+Stock Split. 
+A stock split increases the number of shares in a company and adjusts the stock price. It is allowed when the stock price is over $100. 
+~
+DIVIDMAX
+Maximum Special Dividend 
+The maximum amount of special dividend you can pay is the smaller value of 1) the company's cash and 2) its retained earnings. 
+~
+DIVIDEAR
+Retained Earnings 
+The retained earnings are the accumulative net earnings of a company. You can view it on the Balance Sheet at the Corporate Details screen. 
+~
+DIVIDPAY
+Pay a Special Dividend 
+You may pay a special dividend from your company or a subsidiary with a controlling interest of at least 75%. 
+~
+PININPUT
+Pin Input 
+Pin the current input. Then you may browse productions that use the current input. 
+~
+PINPREV
+Previous production 
+Display the previous production that uses the pinned input. 
+~
+PINNEXT
+Next production 
+Display the next production that uses the pinned input. 
+~
+BANKBRFI
+Operating Expenses Report
+View the operating expenses of this bank branch. 
+~
+INSUBRFI
+Operating Expenses Report
+View the operating expenses of this insurance office. 
+~
+LOANIIAN
+Projected Annual Total Loan Interest Incomes
+This figure is projected by multiplying the latest monthly loan interest incomes by 12 months. The same for the other 2 figures below. To see the real historical total net interest incomes, please view the Financial report. 
+~
+LOANCRED
+Loan Credit Rating 
+Loans are categorized based on the borrowers' credit ratings which indicate the financial health of the borrowers. AAA is the best credit rating. C is the poorest credit rating.  
+~
+LOANINT
+Loan Interest Rate
+Borrowers with good credit ratings can obtain loans with lower interest rates. Conversely, borrowers with poor credit ratings have the higher default risks, thus the bank charges higher interest rates to justify the risks.  
+~
+LOANALLO
+New Loans Allocation
+Under the original allocation, the bank lends money evenly to borrowers of different credit ratings (20% each). If you increase the allocation to the riskier borrowers, you may obtain higher overall loan interests, but the overall loan default rate will also increase. 
+~
+LOANAII
+Projected Annual Interest Incomes 
+The bank collects interest payments from loan borrowers. Loan interests are the main incomes of the bank. 
+~
+LOANIITO
+Projected Annual Total Loan Interest Incomes 
+This figure is projected by multiplying the latest monthly loan interest incomes by 12 months. The same for the other 2 figures below. To see the real historical total net interest incomes, please view the Financial report. 
+~

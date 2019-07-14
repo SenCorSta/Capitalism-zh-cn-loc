@@ -2456,7 +2456,7 @@ A Fun Gaming Experience for New Players.|
 为新手玩家提供的难度。|
 ~
 Normal Difficulty. Enjoyable for Most Players.|
-正常难道，适合大多数玩家。|
+正常难度，适合大多数玩家。|
 ~
 Hard. Only choose this if you have won in easier games.|
 困难，只有当你赢得简单游戏时才选这个|
@@ -2484,6 +2484,12 @@ Instructions: How to set up a private challenge game|
 ~
 Training|
 培训|
+~
+Training Monthly Cost:|
+培训 月成本|
+~
+Move the slider to alter the Training Level. With training, operating units in your firm will gradually advance to higher levels, thus improving their efficiency.|
+移动滑块以更改培训等级。^随着培训，公司经营部门将逐步推进到更高的水平，从而提高其效率。
 ~
 Product Mega Class|
 大型产品类|
@@ -9579,6 +9585,24 @@ Balance Sheet|
 GDP Components Graphs|
 国内生产总值构成图|
 ~
+GDP Component|
+国内生产总值构成|
+~
+GDP|
+国内生产总值|
+~
+GDP - Consumption:|
+GDP - 消耗|
+~
+GDP - Investment:|
+GDP - 投资|
+~
+GDP - Government Spending:|
+GDP - 政府支出|
+~
+GDP - Net Exports:|
+GDP - 净出口|
+~
 Mayor|
 市长|
 ~
@@ -9723,6 +9747,12 @@ BALANCE|
 YTD Changes Last Year Changes|
 年初至今的变化|
 ~
+YTD Changes|
+年初至今的变化|
+~
+Last Year Changes|
+去年的变化|
+~
 GDP: Consumption|
 国内生产总值：消费|
 ~
@@ -9734,9 +9764,6 @@ GDP - Government|
 ~
 GDP - Net Exports|
 国内生产总值-净出口|
-~
-GDP - Consumption|
-32323|
 ~
 Total Exports|
 出口总额|
@@ -9883,6 +9910,9 @@ Interest Rate|
 利率|
 ~
 years|
+年|
+~
+Year |
 年|
 ~
 Nation Graphs|
@@ -12986,6 +13016,9 @@ SOFTWARE GUIDE|
 ~
 Digital Age|
 数字时代|
+~
+Digital|
+数码|
 ~
 SELECT PRODUCT CLASS|
 选择一个类别|
@@ -58611,6 +58644,159 @@ Personal Computer Users|
 PC Internet Users|
 上网用户|
 ~
-
-
-
+Forum|
+官网论坛|
+~
+This location is not suitable for farming.|
+农业不适合这个位置|
+~
+Sell|
+出售|
+~
+Offer|
+求购|
+~
+Land|
+土地|
+~
+Sell Land|
+出售土地|
+~
+Sell Land|
+出售土地|
+~
+You already own this land plot.|
+这格土地已经属于你|
+~
+No owned land plots in this area.|
+这块土地不属于你|
+~
+Sell the owned land plots for:|
+出售土地格于这个价格：|
+~
+Sell the owned land plot for:|
+出售土地格于这个价格：|
+~
+Offer to buy land from the land owner|
+向土地拥有者求购土地|
+~
+Offer to Buy Land|
+求购土地|
+~
+Produce Packaged Software for:|
+为以下系统制作软件安装包：|
+~
+Supply|
+供应|
+~
+Sorry, you have not developed any software yet.|
+对不起，您还没有开发任何软件。|
+~
+This factory has not been set up for production yet. Please switch back to the Standard Mode (hotkey: X) and set up production facilities.|
+这家工厂还没有投产。 请切换回标准模式 （热键：x） 并设置生产设施。
+~
+Stock in the Factory |
+成品库存|
+~
+The stock level of the finished product in the factory.|
+工厂成品的库存等级。|
+~
+City Bonus Quality|
+城市额外加成|
+~
+Current Project|
+当前项目|
+~
+Target Overall Tech|
+目标总体技术|
+~
+Target Quality|
+目标质量|
+~
+Cancel Project|
+取消项目|
+~
+Hire persons with Project Management skills|
+雇佣具有项目管理技能的人员|
+~
+Hire persons with Project Programming skills|
+雇佣具有项目编程技能的人员|
+~
+Issued Bonds|
+已发行债券|
+~
+Coupon Rate|
+债券利率|
+~
+Sorry, you cannot make a new version at the momemt.|
+抱歉，您此刻不能制作新版本。 当前版本的总体技术 和新版本的整体技术两者之间的差别太小，无法影响产品的质量等级。 您可以对该技术进行更多的研究，稍后再试。|
+~
+The current version's overall tech:|
+当前版本的总体技术：|
+~
+The new version's overall tech:|   
+新版本的整体技术：|
+~   
+The difference between the two is too small to make an impact in the product's quality rating.|
+两者之间的差别太小，无法影响产品的质量等级。|
+~   
+You may conduct additional research on the tech and try again later.|
+您可以对该技术进行更多的研究，稍后再试。|
+~
+Which Customized Hardware the OS will be developed for?|
+操作系统将为哪些定制硬件开发？|
+~
+Generic Hardware|
+通用硬件|
+~
+Customized Hardware|
+定制硬件|
+~
+Select supported Hardware for the new Operating System sofware|
+为新操作系统软件选择支持的硬件|
+~
+Sorry, you cannot remove the hardware already supported by the current version of the OS.|
+很抱歉，无法删除当前版本操作系统已支持的硬件。|
+~
+Sorry, the maximum number of hardware types supported by an OS has been reached. You cannot add more.|
+抱歉，已达到操作系统支持的最大硬件类型数。您不能添加更多。|
+~
+Reminder: You may find additional job candidates in other cities.|
+提醒：您可能会在其他城市找到更多的求职者。|
+~
+E-commerce Price|
+电商价格|
+~
+Confirm|
+确认|
+~
+Success Chance|
+成功几率|
+~
+How aggressive is your radical research project?|
+你打算如何进行激进研究？|
+~
+Target Result|
+目标结果|
+~
+Success Rate|
+成功率|
+~
+tech gain|
+技术收益|
+~
+(200% gain)|
+(200%收益)|
+~
+(0% gain)|
+(0%收益)|
+~
+gain)|
+%收益)|
+~
+ gain)|
+%收益1)|
+~
+Radical Product R&D|
+激进研发|
+~

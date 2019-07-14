@@ -1,0 +1,363 @@
+[HEADER]
+Title=完整版脚本
+Description=全部设置都有
+
+[ENVIRONMENT]
+
+Number of Cities=10
+//Number of Cities=<1 to 10>
+//You will be able to create a game with a maximum of 10 cities using a game script.
+
+Your Start-up Capital=Very Low
+//Your Start-up Capital=<Very Low, Low, Moderate, High, Very High>
+//If you prefer to customize the exact amount of start-up capital for your company, you may use the following line instead:
+//Your Start-up Capital Amount=<1 to 10000> ($1 to $10000 million)
+
+Random Events=Seldom
+//Random Events=<Never, Seldom, Occasional, Frequent>
+
+Game Starting Year=1900
+//Game Starting Year=<1900 to 2100>
+//You may set the game starting year to any year between 1900 and 2100.  
+
+Retail Store Type=Many
+//Retail Store Type=<One, Many>
+
+Technology Disruption=No
+//Technology Disruption=<Yes, No>
+
+Stock Market=No
+//Stock Market=<Yes, No>
+
+Alternative Stock Sim=Yes
+//Alternative Stock Sim=<Yes, No>
+
+Macro Economy Realism=High
+//Macro Economy Realism=<Low, High>
+//宏观经济现实主义，开高的话游戏的宏观经济会与现实接近，应该是指的央行贷款供应量和利率随着经济环境的变化
+
+Inflation=On
+//Inflation=<Off, On, Inverse> 
+
+Inflation Strength=Normal
+//Inflation Strength=<Normal, Reduced>
+
+Number of AI Persons=85
+//Number of AI Persons=<number of competitors+8 to 85>
+//This is the total number of AI persons in a game. You may customize it using the above line, allowing you to create a game with more persons than a standard game. Please note that the game requires the number of AI persons to be at least equal to the number of competitors + 8. If you set it lower than this value, the game will automatically reset it to the minimum allowed value. 
+
+//For Subsidiary DLC only:
+
+Subsidiaries=0
+//Subsidiaries=<0 to 3>
+//The number of subsidiaries that your company owns at the beginning of the game. 
+
+Private Company=Yes
+//Private Company=<Yes, No>
+//If this is set to On, your company will start as a private company.  
+
+Retail Store Floors=Multiple
+//Retail Store Floors=<One, Multiple>
+//Set it to ‘Multiple’ to allow for setting up multiple floors in a single retail store. 
+
+//For City Economic Simulation DLC only:
+
+Developed City=Yes
+//Developed City=<Yes,No>
+//Whether there is a developed city at the beginning or not. The game is more challenging if you have to start from scratch without a developed city.
+
+First City Cash Level=Low
+//First City Cash Level=<Low, Moderate, High>
+//The first city’s cash level at the beginning of the game.  
+
+Public Expenses Index=100
+//Public Expenses Index=<10 to 200>
+//This index determines the recurring expenses of public facilities, which affects the game’s difficulty playing as a mayor. When it is set to a high value, the same public facility will have higher operating expenses.
+
+Land Price Index=100
+//Land Price Index=<10 to 200>
+//This index determines the prices that the government sells its land and natural resource sites to corporations. 
+
+City Setup Cost=100
+//City Setup Cost=<1 to 10000> (unit: $1 million)
+//The default cost of setting up a new city is $100 million (it increases with inflation). You may override it by defining a new cost amount using the above statement. 
+
+//(The following are new script functions available in post-release beta version 5.7.00 or later)
+
+Apartment Capacity Modifier=100 
+//Apartment Capacity Modifier=<10-200>  
+//It modifies the capacity of all apartments. 100 is the standard value. Lowering it will decrease the number of people each apartment houses. This means that more apartments need to be built and the real estate business will be more profitable.
+
+Commercial Building Capacity Modifier=100
+//Commercial Building Capacity Modifier=<10-200>
+//It modifies the capacity of all commercial buildings. 100 is the standard value. Lowering it will decrease the amount of office space each commercial building provides. This means that more commercial buildings need to be built and the real estate business will be more profitable.
+
+[COMPETITORS]
+Number of Competitors=50
+//Number of Competitors=<1 to 50>
+//You may set the number of competitors to any number between 1 and 50. 
+
+Competitor Start-up Capital=Very Low
+//Competitor Start-up Capital=<Very Low, Low, Moderate, High, Very High>
+
+Competitor Aggressiveness=Moderate
+//Competitor Aggressiveness=<Very Low, Low, Moderate, High, Very High>
+
+Competitor Expertise Level=Low
+//Competitor Expertise Level=<None, Low, Moderate, High>
+
+Show Competitor Trade Secrets=Yes
+//Show Competitor Trade Secrets=<Yes, No>
+
+AI Friendly Merger=Yes
+//AI Friendly Merger=<Yes, No>
+
+Competence of Local Competitors=Moderate
+//Competence of Local Competitors=<Very Low, Low, Moderate, High, Very High>
+
+//You may set the business focuses of the AI companies using the following script lines:
+//(The total number of competitors defined here should not exceed the number  in the Number of Competitors line.)
+
+Retail Focused Companies=9
+//Retail Focused Companies=<1 to 30>
+
+Stock Focused Companies=4
+//Stock Focused Companies=<1 to 30>
+
+Real Estate Focused Companies=10
+//Real Estate Focused Companies=<1 to 30>
+
+Tech Focused Companies=4
+//Tech Focused Companies=<1 to 30>
+
+Media Focused Companies=3
+//Media Focused Companies=<1 to 30>
+
+Diversified Companies=5
+//Diversified Companies=<1 to 30>
+
+//AI Product Expertise=<Expertise Product Class>, <Number of AI competitors> 
+//Use this statement to assign a specified type of expertise to AI competitors. 
+//<Expertise Product Class> is the expertise product class. For example, “apparel”
+//<Number of AI competitors> is the number of AI competitors possessing this type of expertise. 
+//Example:
+//AI Product Expertise=Apparel, 3
+//With the above statement, there will be 3 AI competitors possessing expertise in Apparel in the beginning of the game, resulting in more intense competition in the apparel industry.
+//Please note that this only applies to AI competitors with a diversified business strategy. (e.g. retail focused companies and companies with other focuses are not affected.)
+
+//For Subsidiary DLC only:
+
+AI Private Companies Percent=20
+//AI Private Companies Percent=<0 to 80>
+//Percentage of competitors that are private companies.
+//AI companies are randomly set up as private companies based on this preference. 
+
+//For City Economic Simulation DLC only:
+
+Donations to Rival Political Parties=0
+//Donations to Rival Political Parties=<0 to 100>
+//If you set this to a value greater than zero, then rival political parties will receive donations from the general public over time. This setting is mainly for increasing the difficulty level of the game if you are looking for a greater challenge.
+
+[IMPORTS]
+
+Consumer Goods Seaports=2
+//Consumer Goods Seaports=<0-4>
+
+Industrial Goods Seaports=2
+//Industrial Goods Seaports=<0-4>
+//You may create a game up with no seaport using a game script. But the AI companies’ performances will suffer and this should only be used if you intend to create a game scenario with such characteristics.
+
+Constant Import Supply=Yes
+//Constant Import Supply=<Yes,No>
+
+Import Quality=Moderate
+//Import Quality=<Low,Moderate,High>
+
+//Randomly Disable Product Classes=<0-90>
+//When this is set, the system will randomly disable a specific percentage of product classes in the new game. 
+
+//Random Product Reinvention=<0-100>  
+//When this is set, the system will randomly lock a specific percentage of product classes in the new game and require the player to “reinvent” them in R&D centers. 
+
+//Assigning specific products to the seaports 
+//Add Seaport Product=<Product Type>The above line assigns a specific product to a seaport. Note that the seaport to be assigned with the products is always the seaport located in the first city of the game.Example: 
+//Add Seaport Product=JeansThe above line adds Jeans to a seaport.You may assign multiple products using the same syntax, such as below.Example:
+
+//[PRODUCTS]
+//Add Seaport Product=Jeans
+//Add Seaport Product=Mobile Phone
+//Add Seaport Product=Steel
+//Add Seaport Product=Timber
+//Add Seaport Product=CCD
+//The products can include consumer products, raw materials and semi products. 
+
+//For Subsidiary DLC only:
+
+Product Customization=On
+//Product Customization=<On,Off>
+//If this is set to On, you will find the Product Customization tool in the Manufacturer’s Guide. (“Technology Disruption” option is disabled when “Product Customization” is enabled.)
+
+Product Customization Range=High
+//Product Customization Range=<Low,Moderate,High>
+//Low – product customization applies to your company only
+//Medium – it applies to your company and your subsidiaries
+//High – it applies to all companies. 
+
+
+//[CITIES] 
+
+//City = Beijing
+//City = Shanghai
+//City = Hong Kong
+//City = Moscow
+//City = Sydney
+//City = New York City
+//City = Tokyo
+//City = London
+//City = Cairo
+//City = Rio De Janeiro
+
+[SPECIAL RULES]
+
+//You may use the following rules to create game scenarios that are extraordinarily more challenging.
+
+//Constant Game Speed=<1 to 5> 
+//If this variable is defined, the game will run at a constant game speed throughout the entire game and the player will not be able to change it. However, if AI Advanced Start is enabled (see below), the constant game speed will not apply during the AI Advanced Start period//. 
+
+//Years of Advanced Start for AI=<0 to 100>, [Stock Purchase Allowed]
+//If this variable is defined, the AI will have an advanced start. During the years of AI advanced start, the player will not be able to perform any business actions. 
+
+//If the optional parameter [Stock Purchase Allowed] is defined, the player will be able to purchase stocks during the period of AI advanced start. If it is not defined, by default, the player is not allowed to buy stocks during this period, and likewise the AI companies are also not allowed to buy the player company’s stock during this period.  
+
+//Auto Save Frequency Modifiers
+//You may use the following script functions to override the default auto save interval which is 1 year.
+
+Auto Save Interval Days=30
+//This sets the auto save interval in game days.
+//Example:
+//Auto Save Interval Days=20
+//This will make the game write a new auto save file every 20 game days.
+
+Auto Save Interval Minutes=30
+//Auto Save Interval Minutes=<number>
+//This sets the auto save interval in real time minutes.(Please note that even with these functions, auto save will only be performed when the Auto Save option in the game is enabled.)
+
+
+CEO Salary Modifier=100
+COO Salary Modifier=100
+CTO Salary Modifier=100
+CMO Salary Modifier=100
+//Game Rule Modifiers
+//CEO Salary Modifier=<1 to 200>
+//COO Salary Modifier=<1 to 200>
+//CTO Salary Modifier=<1 to 200>
+//CMO Salary Modifier=<1 to 200>
+//Salary modifiers for senior management staff. The default value is 100. If you assign a value lower than 100, the expected salary for the job position will be lower. On the other hand, assigning a value higher than 100 will increase the expected salary for the job position.
+//Examples:
+//COO Salary Modifier=70
+//The expected salary for COO will become 70% of the original range.
+//CTO Salary Modifier=130
+//The expected salary for CTO will become 130% of the original range.
+
+Tech Cost Modifier=100
+//Tech Cost Modifier=<1 to 1000>
+//This is a modifier for technology acquisition costs. The default value is 100. If you assign a value lower than 100, technology acquisition costs will be reduced. On the other hand, assigning a value higher than 100 will increase technology acquisition costs.
+//Example:
+//Tech Cost Modifier =150
+//Technology acquisition costs will become 150% of the original
+
+Training Effect Modifier=100
+//Training Effect Modifier=<1 to 1000>
+//You may use this to modify to training effect on staff. The default value is 100. If you assign a value lower than 100, the experience level of your staff being trained will increase slower. Setting a value higher than 100 will increase the training effect.
+//Example:
+//Training Effect Modifier=200
+//With the same training expenditure, your staff’s experience level will increase twice as fast.
+
+Unlimited Natural Resources=Yes
+//Unlimited Natural Resources=<Yes,No>
+//If you set this to Yes, when a natural resource firm (mine/oil well/logging camp) has used up its reserve, instead of stopping its operation, it will continue to produce the natural resources with a new recurring cost.
+//The recurring cost of producing a single unit of the natural resource will equal to the original cost of acquiring natural resource site, divided by the original reserve amount, and adjusted for the current inflation.
+
+//Natural Resources Price Premium=No
+//Use this line to disable the Price Premium system for natural resources.
+
+//Anti-exploitation Game Rules=On
+//This line enables the special anti-exploitation game rule.
+//Under the special anti-exploitation game rule, your company can only merge with another company of which it DIRECTLY owns a majority of the shares.
+//This prevents the parent company from merging with any subsidiaries owned by the first subsidiary. In other words, only the first subsidiary can be merged with the parent company.
+
+[PLAYER EXPERTISE]
+
+Retailing=20
+Farming=20
+Manufacturing=20
+Research and Development=20
+Raw Material Production=20
+Marketing=20
+Training=20
+//You may set the expertise of your player character using the following script lines.
+//Retailing=<0 to 100>
+//Farming=<0 to 100>
+//Manufacturing=<0 to 100>
+//Research and Development=<0 to 100>
+//Raw Material Production=<0 to 100>
+//Marketing=<0 to 100>
+//Training=<0 to 100>
+
+Product Expertise=Computer, 100
+//If you want your player character to possess expertise in a specific product class, you may define it as follows. 
+//Product Expertise=<Product Class>, <Expertise Rating, which ranges from 0 to 100>
+//Examples of product classes: Apparel, Automobile, Beverage and etc. You may view all product classes in the game by accessing the Product Summary Report and look at the product class list at the top left of the report.
+
+//Digital Age DLC only:
+Software Expertise = Operating System, 80
+Internet Expertise = Search Engine,80
+//Software Expertise = <software class name or code>, <1-100>
+//Internet Expertise = <Internet company type>, <1-100>
+
+
+[DIGITAL AGE DLC]
+
+Software Revenue Index=100
+//Software Revenue Index=<10-400>
+//If this index is higher than 100, the demand and revenue from software products in this game will be higher than normal. Conversely, if this index is lower than 100, software businesses will be less profitable.
+
+Internet Revenue Index=100
+//Internet Revenue Index=<10-400>
+//If this index is higher than 100, revenue generated by Internet companies will be higher than normal. Conversely, if this index is lower than 100, Internet companies will be less profitable.
+
+E-Commerce=Yes
+//E-Commerce=<Yes, No>
+//If this is enabled, companies will be able to build e-commerce firms and sell products via e-commerce.
+
+
+AI Acquires Private Companies=Seldom
+//AI Acquires Private Companies=<Never, Seldom, Occasionally>
+//This determines whether AI corporations may acquire independent private companies or not.
+
+AI Tech Companies Go IPO=Yes
+//AI Tech Companies Go IPO=<Yes, No>
+//If this is enabled, private AI tech companies from the Digital Age DLC may go public on the stock exchange.
+
+Max AI software and Internet companies=15
+//Max AI software and Internet companies=<number>
+//This option limits the maximum number of AI software and Internet companies in a game. A lower value means an easier game.
+
+
+Max AI software companies = 6
+Max AI OS companies = 3 
+Max AI Internet companies = 6
+//You may set the limits for software and Internet companies separately using the following lines:
+//Max AI software companies = <number> 
+//Max AI OS companies = <number> 
+//Max AI Internet companies = <number> 
+
+
+ 
+Talent System = Full
+//Talent System = <Full, Simplified, Greatly Simplified>
+//If this is set to Simplified, all talents start with a skill level of 50. If this is set to Greatly Simplified, loyalty and headhunting features of the talent system are disabled too.
+
+More Talents = 50
+//More Talents = <0-500>
+//If you are using a MOD with a large number of product classes and there is a undersupply of talents in the game, then you may use this option to have the game duplicate talent data to increase the supply. For example, if you set it to 50, then the game will generate 50% more talents in a new game.
