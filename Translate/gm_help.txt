@@ -72,7 +72,7 @@ GM_NOCO
 ~
 GM_CSC
 竞争对手的启动资金
-你的竞争对手的初始资金。
+你的竞争对手的初始资金。如果设置为高或以上，将会有专注房地产，媒体喝科技的竞争对手。
 ~
 GM_CA
 竞争对手的扩张性
@@ -243,8 +243,8 @@ AIBANKAG
 更高的设定值意味着，电脑玩家开设的银行将通过提供更高的存款利率，积极吸引竞争对手的客户，而电脑玩家开设的保险公司将提供更具竞争力的利率。
 ~
 SAVERATE
-比索储蓄率修正值
-此滑块修改比索储蓄率。更高的个人储蓄率意味着人们会存更多的钱到银行。
+个人储蓄率修正值
+此滑块修改个人储蓄率。更高的个人储蓄率意味着人们会存更多的钱到银行。
 ~
 MORETAL2
 更多的人才
@@ -263,12 +263,12 @@ GM_TEC0
 启用产品自定义后，科技衰退将自动关闭。 这背后的逻辑是，产品定制依赖于科技水平的线性增长来正常工作， 而科技衰退每年将所有科技水平降低10%。
 ~
 AIBANKFO
-Number of AI Companies Focused on Banking
-This determines the number of AI companies focused on banking in the beginning of the game. 
+专注于银行业的电脑玩家数量
+这决定了游戏开始时专注于银行业的电脑玩家数量。
 ~
 AIINSUFO
-Number of AI Companies Focused on Insurance
-This determines the number of AI companies focused on insurance business in the beginning of the game. 
+专注于保险业的电脑玩家数量
+这决定了游戏开始时专注于保险业的电脑玩家数量。
 ~
 AIBANKT
 电脑玩家建立银行的趋势
@@ -291,82 +291,82 @@ DEPOSCAP
 根据规定，存款不应集中在少数大型存款人身上。有一个上限，限制每个储户可以存款的最高金额。
 ~
 EXPRESS
-Express Mode 
-When the Express mode is enabled, a new streamlined user interface will be used for retail stores, replacing the original 3x3 layout.
+快速模式 
+启用快速模式后，全新简化的零售商店界面会取代原来的3x3布局。
 ~
 MLOANDEP
-Maximum Loans-to-Assets Ratio
-This determines the Absolute Maximum amount of loans that a bank can lend out (including your bank and AI banks). A conservative bank may set a lower Maximum Loans-to-Assets ratio on the bank HQ interface, provided that it does not exceed the one defined here. 
+最大贷款资产比率
+这确定了银行（包括你和电脑玩家的银行）可以贷出的绝对最高贷款额。 A conservative bank may set a lower Maximum Loans-to-Assets ratio on the bank HQ interface, provided that it does not exceed the one defined here. 
 ~
 DEVCITY
-Developed City at the Beginning
-In Survival mode, there is only one city in the beginning of the game. You may set it as a developed city or a new city created from scratch.
+初始发达城市
+在生存模式下，游戏开始时只有一个城市。你可以将其设置为发达城市或从头开始创建的新城市。
 ~
 CITCASH1
-City Initial Cash Level
-This is for setting the cash levels of cities at the beginning of the game.  
+初始城市现金水平
+这决定了初始游戏时的城市现金水平。
 ~
 CITCASH2
-City Initial Cash Level
-This is for setting the cash levels of cities at the beginning of the game. If you want to see cities issuing bonds more often, so that you could invest into municipal bonds, you may set this setting to 'Low'.  
+初始城市现金水平
+这决定了初始游戏时的城市现金水平。如果你希望看到更多的城市发行债券，以便可以投资市政债券，可以将此设置设置为“低”。
 ~
 BOND_PCB
-Percentage of Player Capital Funded by Bond
-If you are an experienced player looking for greater challenge, you may set a percentage of your corporation's initial capital to be funded by a bond issue, requiring you to pay bond interests and repay the bond principal upon its maturity. 
+债券所占玩家资本百分比
+如果你是一位经验丰富，希望面临更大的挑战的玩家，则可以设置公司初始资本的一定百分比，以通过发行债券的方式筹集资金。这要求您支付债券利息并在债券到期时偿还债券本金。 
 ~
 BOND_CRE
-Bond Credit Standard
-With a loose credit assessment standard, all corporations will receive better credit ratings and benefit from lower bond interest expenses.?
+债券信用标准
+在宽松的信用评估标准下，所有公司将获得更好的信用评级，并从较低的债券利息支出中受益。
 ~
 BOND_LIM
-Bond Issue Limit
-The maximum amounts of bonds that a corporation can issue is limited to a multiple of its capitalization, which is set here. A higher value will allow a corporation to issue larger amounts of bonds.
+债券发行限额
+这决定了公司可以发行的最大债券数量为其资本总额的倍数。较高的价值将使公司可以发行更多的债券。
 ~
 BOND_ON
-Feature: Bond 
-When this feature is enabled, corporations will able to able to issue bonds to raise capital, and the bond market will be accessible.?
+债券功能 
+启用此功能后，公司将能够发行债券来筹集资金，并可以进入债券市场。
 ~
 BANK_ON
-Feature: Bank
-This setting determines whether banks can be set up in the game or not.
+银行功能
+这决定了是否可以在游戏中成立银行。
 ~
 INT_SPRE
-Initial Net Interest Spread 
-Net interest spread refers to the difference in the rate at which a bank takes deposits from customers and the rate at which it offers loans. A larger net interest spread means a greater profit margin for a bank. 
+初始存贷利差
+存贷利差是指银行向客户收取存款的利率与提供贷款的利率之差。存贷利差越大，意味着银行的利润率就越高。
 ~
 BCAPREQ
-Required Bank Capital Ratio
-The central bank requires banks to set aside enough capital to cover unexpected losses and keep themselves solvent in a crisis. A capital ratio is the ratio of a bank's equity capital to its total assets. 
+银行存款准备金比率
+央行要求各银行留出足够的资本以弥补意外损失，并在危机中具有偿付能力。存款准备金比率是银行的权益资本与其总资产的比率。
 ~
 INSUR_ON
-Feature: Insurance Business 
-This setting determines whether insurance companies can be set up in the game or not.
+保险业功能
+这决定了是否可以在游戏中成立保险公司。
 ~
 GSTOCKON
-Feature: Global Stock Market 
-This setting determines whether the global stock market is enabled in the game or not. 
+全球股票市场功能 
+这决定了全球股票市场是否在游戏内开启。
 ~
 PRICAGGR
-AI Pricing Aggressiveness
-This determines how far the AI companies will go in lowering prices of their products in order to grab market share from competitors. When this is set to low, you can expect most products to enjoy healthy profit margins and companies will be in general more profitable. 
+电脑玩家定价激进程度
+这决定了电脑玩家将降低产品价格以争取市场份额的程度。如果其设置为较低，则可以预期大多数产品都将享有健康可观的利润率，并且公司通常将获得更大的利润。
 ~
 ECOONDEF
-Economy's Impact on Loan Defaults
-It determines the economy's impact on the loan default rate. When this is set to a higher value, loan defaults will soar at a higher rate during an economic downturn, leading to a potential liquidity crisis.
+经济对贷款违约率的影响
+这确定了经济对贷款违约率的影响。如果将其设置为较高的值，则在经济不景气期间，贷款违约率将飙升，从而导致潜在的流动性危机（流动性风险）。
 ~
 BOOMBUST
-Boom-Bust Cycle Volatility
-This adjusts the economy's impact on consumer demand, which affects GDP and in turn affects the volatility of the boom-bust cycle. (The boom-bust cycle is the expansion and contraction in the economic cycle that occurs repeatedly.) 
+经济周期的波动性
+这调整了经济对消费者需求的影响，影响了GDP，进而影响了经济繁荣与萧条周期的波动性。
 ~
 GSTKINIT
-Initial Stock Price Modifier
-The initial prices of the global stocks are loaded from a database. You may use this modifier to change the initial prices of all global stocks. A lower Modifier value leads to lower initial stock prices, which promise more gain for the global stock market down the road. 
+初始股价修正值
+全球股价的初始值是从数据库中加载的。你可以用这个修正所有全球股票的初始值。较低的修正值导致较低的初始股价，这会保证未来全球股票市场会获得更多收益。
 ~
 BANKDIFF
-Difficulty Level for Banking and Finance DLC 
-Use this to set the overall difficulty level for operating banks and insurance companies. 
+Banking and Finance DLC的难度
+设置Banking and Finance DLC的总体难度级别。
 ~
 SMONEYS
-Strict Money Supply
-If this is enabled, money supply is strictly simulated. It will be more difficult for player and AI companies to raise funds from IPO, issuing new shares and bonds. 
+严格的货币供应
+如果启用此功能，将严格模拟货币供应。对于玩家和电脑玩家的公司而言，通过IPO筹集资金、发行新股和债券将更加困难。 
 ~
